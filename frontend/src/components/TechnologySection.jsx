@@ -12,7 +12,7 @@ function Tag({ label }) {
 // Technology Card
 function TechCard({ image, title, description, topTags, bottomTags }) {
   return (
-    <div className="bg-[#f3f3f1] rounded-2xl shadow-md overflow-hidden border">
+    <div className="bg-[#f3f3f1] rounded-2xl shadow-md overflow-hidden ">
       {/* Image */}
       {image && (
         <img

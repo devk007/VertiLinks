@@ -32,8 +32,8 @@ export default function MegaPanel({ title, intro, cta, links = [] }) {
                 className="flex items-start gap-3 group"
               >
                 <item.icon className="w-7 h-7 text-blue-600 group-hover:text-blue-700 shrink-0" />
-                <span className="font-medium text-gray-800 group-hover:bg-amber-50">
-                  {item.label}
+                <span className="font-medium text-gray-800 group-hover:bg-[#f3f3f1]">
+                  <p className="py-1">{item.label}</p>
                 </span>
               </Link>
             ))}

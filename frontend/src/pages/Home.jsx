@@ -6,18 +6,22 @@ import technologyCards from '../data/technologyData'
 import SideDock from '../components/SideDock'
 import ExpertiseGrid from '../components/ExpertiseGrid'
 import HomeAbout from '../components/HomeAbout'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
     <>
+        <Navbar/>
         <Hero bg={bgImg}
-        title="Business Security Systems"
-        description="Growing with every project, gaining invaluable experience and in depth knowledge of clients' requirements..."
+        title="Innovation Driven, Security Focused."
+        description="VertiLinks stands at the forefront of IT and security innovation, delivering integrated solutions that safeguard businesses and empower digital transformation. From infrastructure and networking to surveillance and cloud, we combine expertise with trust to help enterprises grow with confidence."
         cta={{ label: "Get In Touch", to: "/contact" }} className="h-screen"/>
         <SideDock/>
         <TechnologySection cards={technologyCards}/>
         <HomeAbout/>
         <ExpertiseGrid/>
+        <Footer/>
     </>
   )
 }

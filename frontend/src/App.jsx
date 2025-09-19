@@ -5,6 +5,9 @@ import Navbar from './components/Navbar'
 import { Route,Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Footer from './components/Footer'
+import Products from './pages/Products'
+import Solutions from './pages/Solutions'
+import Softwares from './pages/Softwares'
 
 
 function App() {
@@ -12,11 +15,12 @@ function App() {
 
   return (
     <>
-      <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/products" element={<Products/>} />
+        <Route path="/solutions" element={<Solutions/>}/>
+        <Route path="/softwares" element={<Softwares/>}/>
       </Routes>
-      <Footer/>
     </>
   )
 }

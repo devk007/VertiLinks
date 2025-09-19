@@ -1,173 +1,157 @@
+// src/data/navData.js
 import {
-  Briefcase,
-  Shield,
-  Radio,
-  ScanFace,
-  Fingerprint,
-  IdCard,
-  Building2,
-  Plane,
-  Cpu,
-  Cloud,
-  Lock,
-  Microscope,
-  Users,
+  // common
+  ChevronRight,
+  // solutions
+  Clock,
+  KeyRound,
+  Camera,
+  MonitorPlay,
+  Cable,
   Phone,
+  Cloud,
+  Shield,
+  Search,
+  Code,
+  Wrench,
+  // softwares
+  IdCard,
+  Utensils,
+  Smartphone,
+  // products
+  Printer,
+  Server,
+  Laptop,
+  Scan,
+  Fingerprint,
+  DoorOpen,
+  DoorClosed,
+  Tablet,
+
   Mail,
   Database,
-  Monitor,
-  KeyRound,
-  ChevronRight,
+  Monitor
 } from "lucide-react";
 
 const navData = {
+  // Top-right / small items: sirf Contact ki demand thi
   utility: [
-    { label: "About Us", to: "/about-us" },
-    { label: "R&D Lab", to: "/rnd-lab" },
-    { label: "OEM Modules", to: "/oem-modules" },
-    { label: "Media", to: "/media" },
-    { label: "Blog", to: "/blog" },
     { label: "Contact", to: "/contact" },
   ],
 
+  // Main navbar items
   main: [
+    /** -------------------- SOLUTIONS -------------------- **/
     {
       id: "solutions",
       label: "Solutions",
       panel: {
         title: "Solutions",
         intro:
-          "We pay careful attention to your needs at every point of interaction as we are passionate about delivering security solutions on time. We have a very prompt customer service team which always tries to resolve all the call requests on the same day. Mantra has the technology, people and infrastructure to deliver exceptional security and surveillance solutions to your business.",
+          "End-to-end IT & security solutions for modern businesses: from time attendance and access control to cloud, network security, and managed support.",
         cta: { label: "Explore more", to: "/solutions" },
         links: [
-          { label: "Business Security Systems", to: "/solutions/business", icon: Briefcase },
-          { label: "Enterprise Security Solutions", to: "/solutions/enterprise", icon: Shield },
-          { label: "RFID Security Solution", to: "/solutions/rfid", icon: Radio },
-          { label: "Face Recognition Attendance", to: "/solutions/face-attendance", icon: ScanFace },
-          { label: "Access Control System", to: "/solutions/access-control", icon: Fingerprint },
-          { label: "Biometrics Attendance", to: "/solutions/attendance", icon: Fingerprint },
-          { label: "Citizen Identification", to: "/solutions/citizen-id", icon: IdCard },
-          { label: "Biometric Technologies", to: "/solutions/biometric-tech", icon: Fingerprint },
-          { label: "Smart City Solution", to: "/solutions/smart-city", icon: Building2 },
-          { label: "Airport Solution", to: "/solutions/airport", icon: Plane },
+          { label: "Time Attendance System", to: "/solutions/time-attendance", icon: Clock },
+          { label: "Access Control System", to: "/solutions/access-control", icon: KeyRound },
+          { label: "CCTV Security & Surveillance", to: "/solutions/cctv-surveillance", icon: Camera },
+          { label: "Audio Video Solutions", to: "/solutions/audio-video", icon: MonitorPlay },
+          { label: "Structured Cabling Solution", to: "/solutions/structured-cabling", icon: Cable },
+          { label: "PABX Solution", to: "/solutions/pabx", icon: Phone },
+          { label: "Cloud Solutions", to: "/solutions/cloud", icon: Cloud },
+          { label: "Firewall & Gateway System", to: "/solutions/firewall-gateway", icon: Shield },
+          { label: "SEO Services", to: "/solutions/seo", icon: Search },
+          { label: "Website Development Services", to: "/solutions/website-development", icon: Code },
+          { label: "Digital Marketing Solution", to: "/solutions/digital-marketing", icon: MonitorPlay },
+          { label: "Microsoft Services", to: "/solutions/microsoft-services", icon: Wrench },
+          { label: "IT Support & AMC", to: "/solutions/it-support-amc", icon: Wrench },
         ],
       },
     },
 
+    /** -------------------- SOFTWARES -------------------- **/
     {
-      id: "software",
-      label: "Software",
+      id: "softwares",
+      label: "Softwares",
       panel: {
-        title: "Software",
+        title: "Softwares",
         intro:
-          "We pay careful attention to your needs at every point of interaction as we are passionate about delivering security solutions on time. We have a very prompt customer service team which always tries to resolve all the call requests on the same day. Mantra has the technology, people and infrastructure to deliver exceptional security and surveillance solutions to your business.",
-        cta: { label: "Explore more", to: "/software" },
+          "Business-ready software stack: attendance, visitor & canteen management, access control, and full-cycle custom & ERP development.",
+        cta: { label: "Explore more", to: "/softwares" },
         links: [
-          { label: "Business Security Systems", to: "/software/business", icon: Briefcase },
-          { label: "Enterprise Security Solutions", to: "/software/enterprise", icon: Shield },
-          { label: "RFID Security Solution", to: "/software/rfid", icon: Radio },
-          { label: "Face Recognition Attendance", to: "/software/face-attendance", icon: ScanFace },
-          { label: "Access Control System", to: "/software/access-control", icon: Fingerprint },
-          { label: "Biometrics Attendance", to: "/software/attendance", icon: Fingerprint },
-          { label: "Citizen Identification", to: "/software/citizen-id", icon: IdCard },
-          { label: "Biometric Technologies", to: "/software/biometric-tech", icon: Fingerprint },
-          { label: "Smart City Solution", to: "/software/smart-city", icon: Building2 },
-          { label: "Airport Solution", to: "/software/airport", icon: Plane },
+          { label: "Time Attendance Software", to: "/softwares/time-attendance", icon: Clock },
+          { label: "Visitor Management Software", to: "/softwares/visitor-management", icon: IdCard },
+          { label: "Canteen Management Software", to: "/softwares/canteen-management", icon: Utensils },
+          { label: "Access Control Software", to: "/softwares/access-control", icon: KeyRound },
+          { label: "Mobile App Development", to: "/softwares/mobile-app-development", icon: Smartphone },
+          { label: "Custom Application Development", to: "/softwares/custom-application", icon: Code },
+          { label: "ERP Solutions", to: "/softwares/erp-solutions", icon: Code },
         ],
       },
     },
 
+    /** -------------------- PRODUCTS -------------------- **/
     {
       id: "products",
       label: "Products",
       panel: {
         title: "Products",
         intro:
-          "Mantra offers a cutting edge range of industrial and commercial security products that will help to safeguard your business and facilities. Most of the times the companies get confused in deciding whether to invest in a branded or local security system, but we are here to help you in making things easier.",
-        cta: { label: "Explore more", to: "/oem-products" },
+          "Carefully curated hardware portfolio covering compute, print/scan, surveillance, and identity—ready for enterprise deployment.",
+        cta: { label: "Explore more", to: "/products" },
         links: [
-          { label: "Aadhaar Biometric Attendance System", to: "/oem/attendance", icon: Fingerprint },
-          { label: "Biometric Enrollment Devices", to: "/oem/enrollment", icon: ScanFace },
-          { label: "POS MicroATM Financial Terminal", to: "/oem/pos-microatm", icon: Cpu },
-          { label: "Integrated Biometric Devices", to: "/oem/integrated-biometric", icon: Database },
-          { label: "Fingerprint Sensors", to: "/oem/fingerprint-sensors", icon: Fingerprint },
-          { label: "Biometric Tablet", to: "/oem/biometric-tablet", icon: Monitor },
-          { label: "Aadhaar Products", to: "/oem/aadhaar-products", icon: Fingerprint },
-          { label: "IRIS Sensor", to: "/oem/iris-sensor", icon: ScanFace },
-          { label: "Face Recognition Device", to: "/oem/face-device", icon: ScanFace },
-          { label: "Access Control", to: "/oem/access-control", icon: KeyRound },
+          { label: "ID Card Printers", to: "/products/id-card-printers", icon: Printer },
+          { label: "Server & Storages", to: "/products/servers-storages", icon: Server },
+          { label: "Laptops & Desktop Computers", to: "/products/laptops-desktops", icon: Laptop },
+          { label: "Printers & Scanners", to: "/products/printers-scanners", icon: Scan },
+          { label: "CCTV & IP Cameras", to: "/products/cctv-ip-cameras", icon: Camera },
+          { label: "Face & Biometric Terminals", to: "/products/face-biometric-terminals", icon: Fingerprint },
+          { label: "Turnstile & Speed Gates", to: "/products/turnstile-speed-gates", icon: DoorOpen },
+          { label: "Gate Barriers", to: "/products/gate-barriers", icon: DoorClosed },
+          { label: "Designer Tablets & Displays", to: "/products/designer-tablets-displays", icon: Tablet },
         ],
       },
     },
 
-    {
-      id: "technologies",
-      label: "Technologies",
-      panel: {
-        title: "Technologies",
-        intro:
-          "Our cutting-edge technologies encompass biometric solutions, AI, machine learning, computer vision, IoT, and advanced encryption. These innovations empower businesses to enhance security, automate processes, and gain actionable insights, driving efficiency and growth in various industries.",
-        cta: { label: "Explore more", to: "/technologies" },
-        links: [
-          { label: "Computer Vision", to: "/tech/computer-vision", icon: Monitor },
-          { label: "Behavioral Biometrics", to: "/tech/behavioral-biometrics", icon: Fingerprint },
-          { label: "AI & ML", to: "/tech/ai-ml", icon: Cpu },
-          { label: "Internet of Things", to: "/tech/iot", icon: Cloud },
-          { label: "Encryption", to: "/tech/encryption", icon: Lock },
-        ],
-      },
-    },
-
+    /** -------------------- BRANDS -------------------- **/
     {
       id: "brands",
-      label: "Our Brands",
+      label: "Brands",
       panel: {
         title: "Our Brands",
         intro:
-          "We create brands and product platforms for our customers to make things more possible. Take a look at our brand and product portfolio.",
+          "We partner with leading global OEMs to deliver robust, scalable, and secure solutions.",
         links: [
-          { label: "Servico", to: "/brands/servico", icon: ChevronRight, desc: "Biometric Fingerprint Attendance Machine Maintenance" },
-          { label: "myrfid", to: "/brands/myrfid", icon: ChevronRight, desc: "Solution for Inventory management, Asset tracking." },
-          { label: "moreze", to: "/brands/moreze", icon: ChevronRight, desc: "Leading kiosk manufacturer known for bespoke kiosks." },
-          { label: "MINOP", to: "/brands/minop", icon: ChevronRight, desc: "Cloud-based time-attendance system." },
-          { label: "MXFACE", to: "/brands/mxface", icon: ChevronRight, desc: "API platform that powers face recognition." },
-          { label: "Mikshi", to: "/brands/mikshi", icon: ChevronRight, desc: "A cutting-edge Video Analytics software designed." },
+          { label: "ASUS", to: "/brands/asus", icon: ChevronRight },
+          { label: "DELL", to: "/brands/dell", icon: ChevronRight },
+          { label: "HP", to: "/brands/hp", icon: ChevronRight },
+          { label: "Lenova", to: "/brands/lenova", icon: ChevronRight },
+          { label: "HIKVision", to: "/brands/hikvision", icon: ChevronRight },
+          { label: "Duhua", to: "/brands/dahua", icon: ChevronRight },
+          { label: "Fortinet", to: "/brands/fortinet", icon: ChevronRight },
+          { label: "Cisco", to: "/brands/cisco", icon: ChevronRight },
+          { label: "Sonicwall", to: "/brands/sonicwall", icon: ChevronRight },
+          { label: "Huawei", to: "/brands/huawei", icon: ChevronRight },
+          { label: "Samsung", to: "/brands/samsung", icon: ChevronRight },
+          { label: "Logitech", to: "/brands/logitech", icon: ChevronRight },
+          { label: "CAME", to: "/brands/came", icon: ChevronRight },
         ],
       },
     },
 
-    {
-      id: "partners",
-      label: "Partners",
-      panel: {
-        title: "Partners",
-        intro:
-          "Our cutting-edge technologies encompass biometric solutions, AI, machine learning, computer vision, IoT, and advanced encryption. These innovations empower businesses to enhance security, automate processes, and gain actionable insights, driving efficiency and growth in various industries.",
-        cta: { label: "Explore more", to: "/partners" },
-        links: [
-          { label: "Solution Partner", to: "/partners/solution", icon: Microscope },
-          { label: "Distribution Partner", to: "/partners/distribution", icon: Cloud },
-          { label: "Technology Partner", to: "/partners/technology", icon: Cpu },
-          { label: "Consulting Partner", to: "/partners/consulting", icon: Users },
-        ],
-      },
-    },
-
-    {
-      id: "support",
+    /** -------------------- CONTACT (simple link, no panel) -------------------- **/
+    { id: "support",
       label: "Support",
-      panel: {
+      panel: { 
         title: "Support",
-        intro:
-          "You can download and use the fingerprint scanner driver and SDK for developing your application.",
+        intro: "You can download and use the fingerprint scanner driver and SDK for developing your application.",
         links: [
-          { label: "Email:- servico@mantratec.com", to: "mailto:servico@mantratec.com", icon: Mail },
-          { label: "Phone:- 079-49068000", to: "tel:07949068000", icon: Phone },
-          { label: "Warranty & RMA Process", to: "/support/warranty-rma", icon: Database },
-          { label: "Support Ticket", to: "/support/ticket", icon: KeyRound },
+          { label: "Email:- services@vertilinks.com", to: "mailto:services@vertilinks.com", icon: Mail }, 
+          { label: "Phone:- 0505810499", to: "tel:0505810499", icon: Phone }, 
+          { label: "Warranty & RMA Process", to: "/support/warranty-rma", icon: Database }, 
+          { label: "Support Ticket", to: "/support/ticket", icon: KeyRound }, 
           { label: "Download Technical Resources", to: "/support/resources", icon: Monitor },
-        ],
-      },
+        ], 
+      }, 
     },
   ],
 };

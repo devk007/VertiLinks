@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/x6ioTZ01.svg"
 import {
   MapPin,
   Mail,
@@ -9,11 +11,6 @@ import {
   ArrowUp,
 } from "lucide-react";
 
-/**
- * Footer – Mantra-style (same-to-same)
- * Tailwind required.
- * Put your badge images in /public/assets/... or CDN and update the src below.
- */
 export default function Footer() {
   const [showTop, setShowTop] = useState(false);
 
@@ -28,159 +25,182 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-[#2E76A9] text-white">
-      {/* content */}
       <div className="max-w-7xl mx-auto px-6 py-14">
-        <div className="grid gap-10 md:gap-12 md:grid-cols-2 lg:grid-cols-4">
-          {/* About */}
-          <div>
-            <h3 className="text-3xl mb-6">About Our Company</h3>
+        {/* 5 Sections */}
+        <div className="grid gap-10 md:gap-12 sm:grid-cols-2 lg:grid-cols-5">
+          {/* Section 1: Logo + Tagline */}
+          <div className="col-span-1">
+            <div className="flex items-center gap-3 mb-5">
+              <img
+                src={logo}
+                alt="VertiLinks"
+                className="h-17 w-auto"
+              />
+            </div>
             <p className="leading-relaxed opacity-95">
-              Mantra is a leading STQC certified manufacturer of the key
-              Biometric product for Aadhaar project in India. We provide
-              Fingerprint scanner &amp; Iris scanner for Aadhaar enrollment
-              center.
+              <span className="font-semibold">Leading IT solution provider in UAE.</span>{" "}
+              We strive to provide the best IT, Security and Identification solutions.
+              For Retail Product Requirement, please checkout{" "}
+              <a
+                href="https://posinuae.ae"
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-2"
+              >
+                POSinUAE
+              </a>
+              . Visit{" "}
+              <a
+                href="https://infomeksa.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-2"
+              >
+                InfomeKSA
+              </a>{" "}
+              to avail our service in Saudi Arabia.
             </p>
 
             {/* Social */}
-            <div className="mt-8 flex items-center gap-4">
+            {/* <div className="mt-8 flex items-center gap-4">
               <a
-                href="#"
+                href="https://facebook.com/vertilinks"
                 aria-label="Facebook"
                 className="w-11 h-11 grid place-items-center rounded-md bg-white/10 hover:bg-white/20 transition"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/vertilinks"
                 aria-label="Twitter"
                 className="w-11 h-11 grid place-items-center rounded-md bg-white/10 hover:bg-white/20 transition"
               >
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/vertilinks"
                 aria-label="LinkedIn"
                 className="w-11 h-11 grid place-items-center rounded-md bg-white/10 hover:bg-white/20 transition"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
-          {/* Contact */}
-          <div>
-            <h3 className="text-3xl mb-6">Our Contact</h3>
+          {/* Section 2: Our Products */}
+          <div className="col-span-1">
+            <h3 className="text-2xl mb-5 font-semibold">Our Products</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/products/server-storage" className="hover:underline">
+                  Server &amp; Storage Solutions
+                </Link>
+              </li>
+              <li>
+                <Link to="/products/id-card-printers" className="hover:underline">
+                  ID Card Printers
+                </Link>
+              </li>
+              <li>
+                <Link to="/products/attendance-access" className="hover:underline">
+                  Attendance &amp; Access Control
+                </Link>
+              </li>
+              <li>
+                <Link to="/products/networking-security" className="hover:underline">
+                  Networking &amp; Security
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-            <div className="flex items-start gap-3 mb-4">
+          {/* Section 3: Quick Links */}
+          <div className="col-span-1">
+            <h3 className="text-2xl mb-5 font-semibold">Quick Links</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/about" className="hover:underline">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:underline">
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/blog" className="hover:underline">
+                  Blog
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Section 4: Help Support */}
+          <div className="col-span-1">
+            <h3 className="text-2xl mb-5 font-semibold">Help Support</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-3">
+                <Mail className="w-5 h-5 mt-1 shrink-0" />
+                <a
+                  href="mailto:services@vertilinks.com"
+                  className="hover:underline"
+                >
+                  services@vertilinks.com
+                </a>
+              </li>
+              <li>
+                <Link to="/privacy-policy" className="hover:underline">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/faqs" className="hover:underline">
+                  FAQs
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Section 5: Our Location */}
+          <div className="col-span-1">
+            <h3 className="text-2xl mb-5 font-semibold">Our Location</h3>
+            <div className="flex items-start gap-3 mb-3">
               <MapPin className="w-5 h-5 mt-1 shrink-0" />
               <p className="opacity-95">
-                B203, Shapath Hexa, Opp. Gujarat High Court, S.G. Highway, Sola,
-                Ahmedabad - 380060, Gujarat.
+                Office 1204, XYZ Tower, Sheikh Zayed Road,
+                Dubai, United Arab Emirates
               </p>
             </div>
-
-            <div className="flex items-start gap-3 mb-1">
-              <Mail className="w-5 h-5 mt-1 shrink-0" />
-              <p>
-                <span className="font-semibold">Sales:</span>{" "}
-                <a
-                  href="mailto:sales@mantratec.com"
-                  className="underline-offset-2 hover:underline"
-                >
-                  sales@mantratec.com
-                </a>
-              </p>
-            </div>
-
-            <div className="flex items-start gap-3 mt-2">
-              <Mail className="w-5 h-5 mt-1 shrink-0" />
-              <p>
-                <span className="font-semibold">Support:</span>{" "}
-                <a
-                  href="mailto:servico@mantratec.com"
-                  className="underline-offset-2 hover:underline"
-                >
-                  servico@mantratec.com
-                </a>
-              </p>
-            </div>
-
-            {/* (Optional) phone line – keep for parity if you ever need */}
-            <div className="hidden items-start gap-3 mt-2">
+            {/* Optional phones */}
+            <div className="flex items-start gap-3">
               <Phone className="w-5 h-5 mt-1 shrink-0" />
-              <p>+91-00000 00000</p>
+              <p>+971-4-000-0000</p>
             </div>
-          </div>
 
-          {/* Policies */}
-          <div>
-            <h3 className="text-3xl mb-6">Our Policies</h3>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="hover:underline">
-                  Investors
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Return Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms of Use
-                </a>
-              </li>
-            </ul>
-
-            {/* badges */}
-            <div className="mt-6 flex flex-col gap-3">
-              <img
-                src="/assets/dmca-protected.png"
-                alt="DMCA Protected"
-                className="h-8 w-auto"
-              />
-              <img
-                src="/assets/copyscape-protected.png"
-                alt="Copyscape Protected"
-                className="h-8 w-auto"
-              />
-            </div>
-          </div>
-
-          {/* Useful Link */}
-          <div>
-            <h3 className="text-3xl mb-6">Useful Link</h3>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="hover:underline">
-                  Inquiry Form
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Sitemap
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Blogs
-                </a>
-              </li>
-            </ul>
-
-            {/* CMMI badge */}
-            <div className="mt-6">
-              <img
-                src="/assets/cmmi-l3-badge.png"
-                alt="CMMI Appraised L3"
-                className="h-16 w-auto rounded-md"
-              />
+            {/* Social (secondary) */}
+            <div className="mt-6 flex items-center gap-4">
+              <a
+                href="https://facebook.com/vertilinks"
+                aria-label="Facebook"
+                className="w-9 h-9 grid place-items-center rounded-md bg-white/10 hover:bg-white/20 transition"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+              <a
+                href="https://twitter.com/vertilinks"
+                aria-label="Twitter"
+                className="w-9 h-9 grid place-items-center rounded-md bg-white/10 hover:bg-white/20 transition"
+              >
+                <Twitter className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/vertilinks"
+                aria-label="LinkedIn"
+                className="w-9 h-9 grid place-items-center rounded-md bg-white/10 hover:bg-white/20 transition"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -191,16 +211,12 @@ export default function Footer() {
         {/* copyright */}
         <div className="pt-6 text-center text-lg">
           <span className="opacity-95">
-            Copyrights 2025{" "}
-            <span className="font-semibold">
-              Mantra Softech (India) Pvt. Ltd.
-            </span>{" "}
-            All Rights Reserved.
+            © 2025 <span className="font-semibold">VertiLinks</span>. All Rights Reserved.
           </span>
         </div>
       </div>
 
-      {/* Scroll to top (bottom-right) */}
+      {/* Scroll to top */}
       <button
         onClick={scrollToTop}
         aria-label="Scroll to top"
