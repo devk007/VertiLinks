@@ -168,14 +168,13 @@ export default function Footer() {
             <div className="flex items-start gap-3 mb-3">
               <MapPin className="w-5 h-5 mt-1 shrink-0" />
               <p className="opacity-95">
-                Office 1204, XYZ Tower, Sheikh Zayed Road,
-                Dubai, United Arab Emirates
+                Sharjah Media City,UAE
               </p>
             </div>
             {/* Optional phones */}
             <div className="flex items-start gap-3">
               <Phone className="w-5 h-5 mt-1 shrink-0" />
-              <p>+971-4-000-0000</p>
+              <p>0505810499</p>
             </div>
 
             {/* Social (secondary) */}
