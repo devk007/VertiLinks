@@ -8,6 +8,7 @@ import ExpertiseGrid from '../components/ExpertiseGrid'
 import HomeAbout from '../components/HomeAbout'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import SolutionsOverview from '../components/SolutionsOverview'
 
 function Home() {
   return (
@@ -16,10 +17,11 @@ function Home() {
         <Hero bg={bgImg}
         title="Innovation Driven, Security Focused."
         description="VertiLinks stands at the forefront of IT and security innovation, delivering integrated solutions that safeguard businesses and empower digital transformation. From infrastructure and networking to surveillance and cloud, we combine expertise with trust to help enterprises grow with confidence."
-        cta={{ label: "Get In Touch", to: "/contact" }} className="h-screen"/>
+        cta={{ label: "Get In Touch", to: "/contact" }} type="home" className="h-screen"/>
         <SideDock/>
         <TechnologySection cards={technologyCards}/>
         <HomeAbout/>
+        <SolutionsOverview/>
         <ExpertiseGrid/>
         <Footer/>
     </>

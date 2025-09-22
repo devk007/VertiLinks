@@ -100,9 +100,9 @@ const navData = {
         cta: { label: "Explore more", to: "/products" },
         links: [
           { label: "ID Card Printers", to: "/products/id-card-printers", icon: Printer },
-          { label: "Server & Storages", to: "/products/servers-storages", icon: Server },
-          { label: "Laptops & Desktop Computers", to: "/products/laptops-desktops", icon: Laptop },
-          { label: "Printers & Scanners", to: "/products/printers-scanners", icon: Scan },
+          { label: "Server & Storages", to: "/products/server-and-storages", icon: Server },
+          { label: "Laptops & Desktop Computers", to: "/products/laptops-and-desktops", icon: Laptop },
+          { label: "Printers & Scanners", to: "/products/printers-and-scanners", icon: Scan },
           { label: "CCTV & IP Cameras", to: "/products/cctv-ip-cameras", icon: Camera },
           { label: "Face & Biometric Terminals", to: "/products/face-biometric-terminals", icon: Fingerprint },
           { label: "Turnstile & Speed Gates", to: "/products/turnstile-speed-gates", icon: DoorOpen },

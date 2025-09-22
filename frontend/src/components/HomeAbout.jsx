@@ -17,13 +17,13 @@ function HomeAbout() {
             <span className="text-blue-400">Innovation That Counts</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl leading-relaxed">
-            Founded in 2006, Mantra is an undisputed leader in Biometrics &amp; RFID
+            Founded in 2006, Vertilinks is an undisputed leader in Biometrics &amp; RFID
             industry in India. Fingerprint Scanners and IRIS Sensors are the primary
-            products of Mantra.
+            products of Vertilink.
           </p>
           <p className="mt-4 text-lg sm:text-xl leading-relaxed">
-            Mantra's focus is to provide innovative products and solutions with a set of
-            innovation. Mantra emphasizes to promote intellectual qualities in an
+            Our focus is to provide innovative products and solutions with a set of
+            innovation. We emphasizes to promote intellectual qualities in an
             individual and amongst the team to provide the best solutions before
             various clients in a cost effective manner.
           </p>

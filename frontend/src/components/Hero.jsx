@@ -3,7 +3,7 @@ import React from "react";
 /**
  * Full-page Hero section
  */
-export default function Hero({ bg, title, breadcrumb, description, cta }) {
+export default function Hero({ bg, title, breadcrumb, description, cta, type = "inner" }) {
   return (
     <section
       className="relative h-screen flex items-center"
@@ -14,7 +14,15 @@ export default function Hero({ bg, title, breadcrumb, description, cta }) {
       }}
     >
       {/* Gradient overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
+      {type === "home" ? (
+        // home: full subtle overlay
+        <div className="absolute inset-0 bg-black/40" />
+      ) : (
+        // inner: left 60% dark (lighter than before), fade out to right
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.9)_0%,rgba(0,0,0,0.9)_60%,rgba(0,0,0,0)_100%)]" />
+      )}
+
+
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl ml-15 px-6 text-white">
