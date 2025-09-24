@@ -9,6 +9,9 @@ import HomeAbout from '../components/HomeAbout'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import SolutionsOverview from '../components/SolutionsOverview'
+import InfoCard from '../components/InfoCard'
+import HomeInfoCard from '../data/HomeInfoCard'
+
 
 function Home() {
   return (
@@ -21,6 +24,7 @@ function Home() {
         <SideDock/>
         <TechnologySection cards={technologyCards}/>
         <HomeAbout/>
+        <InfoCard items={HomeInfoCard}/>
         <SolutionsOverview/>
         <ExpertiseGrid/>
         <Footer/>

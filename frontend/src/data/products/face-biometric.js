@@ -97,6 +97,7 @@ export default {
           brief: "Fusion face with fingerprint option.",
           features: ["Face/Fingerprint/Card", "OSDP", "PoE"],
           to: "/products/face-biometric-terminals/suprema/facestation-f2",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -111,6 +112,7 @@ export default {
           bg: "/assets/products/bio/zkteco-v5l-hero.jpg",
           breadcrumb:
             "Home / Products / Face & Biometric Terminals / ZKTeco / SpeedFace V5L",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/bio/zkteco-v5l.jpg"],
         overview:
@@ -129,6 +131,7 @@ export default {
           bg: "/assets/products/bio/suprema-f2-hero.jpg",
           breadcrumb:
             "Home / Products / Face & Biometric Terminals / Suprema / FaceStation F2",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/bio/suprema-f2.jpg"],
         overview:

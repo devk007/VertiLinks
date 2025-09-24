@@ -1,101 +1,100 @@
 // src/components/SolutionsOverview.jsx
-import {
-  IdCard,
-  Shield,
-  GraduationCap,
-  Gavel,
-  Package,
-  HandCoins,
-  HeartPulse,
-} from "lucide-react";
+import { Camera, Clock, KeyRound, MonitorPlay, Cable, Phone, ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const solutions = [
   {
-    id: "citizen-id",
-    title: "Citizen & National ID",
+    id: "time-attendance",
+    title: "Time Attendance System",
     description:
-      "Citizen registration is the stepping stone of identity management programs.",
-    icon: IdCard,
-    href: "/solutions/citizen-id",
+      "Automate workforce tracking with biometric, RFID, and mobile-first check-ins.",
+    icon: Clock,
+    href: "/solutions/time-attendance-system",
   },
   {
-    id: "healthcare",
-    title: "Health Care Protection",
+    id: "access-control",
+    title: "Access Control System",
     description:
-      "Ensuring safety in healthcare with biometric access and patient identification.",
-    icon: HeartPulse,
-    href: "/solutions/healthcare",
+      "Layered door, elevator, and visitor controls secured by modern credentials.",
+    icon: KeyRound,
+    href: "/solutions/access-control-system",
   },
   {
-    id: "education",
-    title: "Engaged Education",
+    id: "cctv",
+    title: "CCTV Security & Surveillance",
     description:
-      "Education is a powerful pillar of progress — secured with smart access & monitoring.",
-    icon: GraduationCap,
-    href: "/solutions/education",
+      "IP cameras and analytics delivering 24/7 visibility for every premises.",
+    icon: Camera,
+    href: "/solutions/cctv-security-surveillance",
   },
   {
-    id: "law",
-    title: "Law Enforcement",
+    id: "audio-video",
+    title: "Audio Video Solutions",
     description:
-      "Empowering agencies with reliable biometric verification and surveillance.",
-    icon: Gavel,
-    href: "/solutions/law-enforcement",
+      "Meeting rooms and command centers engineered for crystal-clear collaboration.",
+    icon: MonitorPlay,
+    href: "/solutions/audio-video-solutions",
   },
   {
-    id: "commodity",
-    title: "Commodity Distribution",
+    id: "cabling",
+    title: "Structured Cabling Solution",
     description:
-      "Fair distribution powered by identification and secure tracking.",
-    icon: Package,
-    href: "/solutions/commodity",
+      "High-speed copper and fiber backbones designed for resilient networks.",
+    icon: Cable,
+    href: "/solutions/structured-cabling-solution",
   },
   {
-    id: "microfinance",
-    title: "Microfinance",
+    id: "pabx",
+    title: "PABX Solution",
     description:
-      "Inclusive financial systems with strong authentication for every user.",
-    icon: HandCoins,
-    href: "/solutions/microfinance",
+      "Unified voice platforms integrating desk phones, soft clients, and IVR flows.",
+    icon: Phone,
+    href: "/solutions/pabx-solution",
   },
 ];
 
 export default function SolutionsOverview() {
   return (
-    <section className="max-w-full mx-auto px-20 py-12 bg-[#f3f3f1]">
-      {/* Header */}
-      <header className="mb-10">
-        <h2 className="text-3xl md:text-3xl font-bold">
-          Our Product Based Solutions
-        </h2>
-        <p className="mt-4 text-gray-600 max-w-3xl ">
-          Vertilinks provides scalable solutions across industries. From
-          citizen ID to microfinance, our technologies ensure secure
-          enrollment, authentication, and management tailored to your needs.
-        </p>
-      </header>
+    <section className="bg-[#f3f3f1] py-16">
+      <div className="mx-auto max-w-7xl px-6 md:px-8">
+        <header className="mb-12 max-w-3xl space-y-4">
+          <h2 className="text-3xl font-semibold text-slate-900 md:text-4xl">
+            Tailored platforms for secured workplaces
+          </h2>
+          <p className="text-sm leading-6 text-slate-600 md:text-base">
+            Discover how Vertilinks architects time, access, surveillance, voice, and cabling solutions to fit your deployment scale and compliance needs.
+          </p>
+        </header>
 
-      {/* Grid */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {solutions.map((item) => {
-          const Icon = item.icon;
-          return (
-            <div
-              key={item.id}
-              className="flex flex-col gap-3 border-l-2 border-blue-600 p-4 hover:shadow-md transition hover:bg-white"
-            >
-              <Icon className="w-8 h-8 text-blue-600" />
-              <h3 className="text-lg font-semibold">{item.title}</h3>
-              <p className="text-gray-600 text-sm">{item.description}</p>
-              <a
-                href={item.href}
-                className="mt-2 inline-block text-blue-600 font-medium hover:underline"
+        <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+          {solutions.map((item) => {
+            const Icon = item.icon;
+            return (
+              <Link
+                key={item.id}
+                to={item.href}
+                className="group flex h-full flex-col justify-between rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
               >
-                Read More
-              </a>
-            </div>
-          );
-        })}
+                <div className="flex flex-col gap-4">
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f3f3f1] text-slate-700">
+                    <Icon className="h-6 w-6" aria-hidden="true" />
+                  </span>
+                  <h3 className="text-2xl font-semibold text-slate-900">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm leading-6 text-slate-600">
+                    {item.description}
+                  </p>
+                </div>
+
+                <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-slate-700">
+                  Explore solution
+                  <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                </span>
+              </Link>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

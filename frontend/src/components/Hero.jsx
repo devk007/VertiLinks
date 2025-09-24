@@ -3,16 +3,30 @@ import React from "react";
 /**
  * Full-page Hero section
  */
-export default function Hero({ bg, title, breadcrumb, description, cta, type = "inner" }) {
+export default function Hero({
+  bg,
+  title,
+  breadcrumb,
+  description,
+  cta,
+  type = "inner",
+  heightClass = "h-screen",
+  className = "",
+}) {
   return (
     <section
-      className="relative h-screen flex items-center"
-      style={{
-        backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className={`relative flex ${heightClass} items-center overflow-hidden ${className}`.trim()}
     >
+      {bg && (
+        <div className="absolute inset-0">
+          <img
+            src={bg}
+            alt=""
+            className="h-full w-full object-cover"
+            aria-hidden
+          />
+        </div>
+      )}
       {/* Gradient overlay for text readability */}
       {type === "home" ? (
         // home: full subtle overlay

@@ -97,6 +97,7 @@ export default {
           brief: "Iconic speed gate with custom finishes.",
           features: ["High throughput", "Custom heights", "ACS integration"],
           to: "/products/turnstile-and-speed-gates/boon-edam/speedlane-swing",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -111,6 +112,7 @@ export default {
           bg: "/assets/products/turnstile/zkteco-ts1000-hero.jpg",
           breadcrumb:
             "Home / Products / Turnstiles & Speed Gates / ZKTeco / TS1000",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/turnstile/zkteco-ts1000.jpg"],
         overview:
@@ -129,6 +131,7 @@ export default {
           bg: "/assets/products/turnstile/boon-speedlane-hero.jpg",
           breadcrumb:
             "Home / Products / Turnstiles & Speed Gates / Boon Edam / Speedlane Swing",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/turnstile/boon-speedlane.jpg"],
         overview:

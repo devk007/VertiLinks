@@ -97,6 +97,7 @@ export default {
           brief: "3m rapid barrier for parking lanes.",
           features: ["Fast motor", "LED options", "Loop inputs"],
           to: "/products/gate-barriers/nice/m3bar",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -110,6 +111,7 @@ export default {
           description: "3–5m barrier for commercial use.",
           bg: "/assets/products/barrier/faac-615-hero.jpg",
           breadcrumb: "Home / Products / Gate Barriers / FAAC / 615",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/barrier/faac-615.jpg"],
         overview:
@@ -127,6 +129,7 @@ export default {
           description: "Rapid 3m barrier for parking lanes.",
           bg: "/assets/products/barrier/nice-m3-hero.jpg",
           breadcrumb: "Home / Products / Gate Barriers / NICE / M3BAR",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/barrier/nice-m3.jpg"],
         overview:

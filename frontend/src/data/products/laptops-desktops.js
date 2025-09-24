@@ -69,7 +69,7 @@ export default {
         description: "Reliable business laptops and mobile workstations.",
         bg: "/assets/banners/dell-laptop.jpg",
         breadcrumb: "Home / Products / Laptops & Desktops / Dell",
-        cta: { label: "Explore Models", to: "#models" },
+        cta: { label: "Explore Models", to: "/contact" },
       },
       keyBenefits: [
         { icon: "Laptop", title: "Portable", desc: "Slim magnesium designs with great keyboards." },
@@ -116,6 +116,7 @@ export default {
           brief: "Value business laptop with modern ports.",
           features: ["Intel® Core™", "TPM 2.0", "Wi-Fi 6"],
           to: "/products/laptops-and-desktop-computers/hp/probook-450",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         {
           slug: "zbook-fury-16",
@@ -138,6 +139,7 @@ export default {
           bg: "/assets/products/pc/dell-latitude-5440-hero.jpg",
           breadcrumb:
             "Home / Products / Laptops & Desktops / Dell / Latitude 5440",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/pc/dell-latitude-5440.jpg"],
         overview:
@@ -154,6 +156,7 @@ export default {
           bg: "/assets/products/pc/dell-precision-3580-hero.jpg",
           breadcrumb:
             "Home / Products / Laptops & Desktops / Dell / Precision 3580",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/pc/dell-precision-3580.jpg"],
         overview:
@@ -172,6 +175,7 @@ export default {
           bg: "/assets/products/pc/hp-probook-hero.jpg",
           breadcrumb:
             "Home / Products / Laptops & Desktops / HP / ProBook 450",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/pc/hp-probook-450.jpg"],
         overview: "Balanced performance with strong security features.",
@@ -187,6 +191,7 @@ export default {
           bg: "/assets/products/pc/hp-zbook-fury-hero.jpg",
           breadcrumb:
             "Home / Products / Laptops & Desktops / HP / ZBook Fury 16",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/pc/hp-zbook-fury.jpg"],
         overview:

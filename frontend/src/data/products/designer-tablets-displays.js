@@ -97,6 +97,7 @@ export default {
           brief: "Portable 13\" pen display.",
           features: ["8192 levels", "Laminate", "Tilt"],
           to: "/products/designer-tablets-and-displays/huion/kamvas-13",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -111,6 +112,7 @@ export default {
           bg: "/assets/products/tablet/wacom-cintiq16-hero.jpg",
           breadcrumb:
             "Home / Products / Designer Tablets & Displays / Wacom / Cintiq 16",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/tablet/wacom-cintiq16.jpg"],
         overview:
@@ -129,6 +131,7 @@ export default {
           bg: "/assets/products/tablet/huion-kamvas13-hero.jpg",
           breadcrumb:
             "Home / Products / Designer Tablets & Displays / Huion / Kamvas 13",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/tablet/huion-kamvas13.jpg"],
         overview:

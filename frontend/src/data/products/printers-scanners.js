@@ -59,7 +59,7 @@ export default {
         description: "Secure, efficient printing and capture.",
         bg: "/assets/banners/hp-printers.jpg",
         breadcrumb: "Home / Products / Printers & Scanners / HP",
-        cta: { label: "See Models", to: "#models" },
+        cta: { label: "See Models", to: "/contact" },
       },
       keyBenefits: [
         { icon: "Lock", title: "Wolf Security", desc: "Protection from power-on to print." },
@@ -106,6 +106,7 @@ export default {
           brief: "A3 mono MFP for workgroups.",
           features: ["30 ppm", "Duplex", "Finisher options"],
           to: "/products/printers-and-scanners/canon/imagerunner-2630",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -120,6 +121,7 @@ export default {
           bg: "/assets/products/print/hp-m428-hero.jpg",
           breadcrumb:
             "Home / Products / Printers & Scanners / HP / LaserJet Pro M428",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/print/hp-m428.jpg"],
         overview: "Fast, secure and easy to manage for small teams.",
@@ -135,6 +137,7 @@ export default {
           bg: "/assets/products/print/hp-scanjet-hero.jpg",
           breadcrumb:
             "Home / Products / Printers & Scanners / HP / ScanJet Pro 4500",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/print/hp-scanjet-4500.jpg"],
         overview: "Quick capture to searchable PDFs and cloud.",
@@ -152,6 +155,7 @@ export default {
           bg: "/assets/products/print/canon-ir-hero.jpg",
           breadcrumb:
             "Home / Products / Printers & Scanners / Canon / imageRUNNER 2630",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/print/canon-ir-2630.jpg"],
         overview: "Dependable printing with optional finisher.",

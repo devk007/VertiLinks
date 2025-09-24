@@ -87,7 +87,7 @@ export default {
         description: "PowerEdge compute and PowerStore all-flash arrays.",
         bg: "/assets/banners/dell-servers.jpg",
         breadcrumb: "Home / Products / Servers & Storage / Dell EMC",
-        cta: { label: "Explore Models", to: "#models" },
+        cta: { label: "Explore Models", to: "/contact" },
       },
       keyBenefits: [
         { icon: "Gauge", title: "Throughput", desc: "PCIe Gen4, NVMe & high core counts." },
@@ -134,6 +134,7 @@ export default {
           brief: "Balanced 2U server for mainstream workloads.",
           features: ["Intel®/AMD®", "NVMe/SAS", "iLO 6"],
           to: "/products/server-and-storages/hpe/proliant-dl380",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -158,6 +159,7 @@ export default {
           brief: "High-performance 12-bay rack NAS.",
           features: ["Xeon D", "10GbE", "BTRFS"],
           to: "/products/server-and-storages/synology/rs3621xs-plus",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -173,6 +175,7 @@ export default {
           bg: "/assets/products/servers/dell-r650-hero.jpg",
           breadcrumb:
             "Home / Products / Servers & Storage / Dell EMC / PowerEdge R650",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/servers/dell-r650.jpg"],
         overview:
@@ -191,6 +194,7 @@ export default {
           bg: "/assets/products/storage/dell-powerstore-hero.jpg",
           breadcrumb:
             "Home / Products / Servers & Storage / Dell EMC / PowerStore 500T",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/storage/dell-powerstore.jpg"],
         overview:
@@ -209,6 +213,7 @@ export default {
           bg: "/assets/products/servers/hpe-dl380-hero.jpg",
           breadcrumb:
             "Home / Products / Servers & Storage / HPE / ProLiant DL380 Gen11",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/servers/hpe-dl380.jpg"],
         overview:
@@ -227,6 +232,7 @@ export default {
           bg: "/assets/products/storage/synology-rs3621-hero.jpg",
           breadcrumb:
             "Home / Products / Servers & Storage / Synology / RS3621xs+",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/storage/synology-rs3621.jpg"],
         overview:

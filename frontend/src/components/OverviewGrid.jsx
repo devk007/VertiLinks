@@ -49,7 +49,7 @@ export default function OverviewGrid({
                     to={item.href}
                     className={`mt-3 inline-block font-medium hover:underline ${accent.link}`}
                   >
-                    Read More
+                   Explore
                   </Link>
                 ) : null}
               </div>

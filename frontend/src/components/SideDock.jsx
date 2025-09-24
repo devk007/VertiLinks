@@ -141,14 +141,20 @@ export default function SideDock({
   };
 
   const handleLeaveRail = () => {
-    // Close when leaving the whole rail (panel will also close on leave)
-    requestClose({ clear: true });
+    // Delay closing to allow cursor to move into the panel
+    clearCloseTimer();
+    closeTimerRef.current = setTimeout(() => {
+      requestClose({ clear: true });
+    }, 200);
   };
 
   // keep open while panel hovered; close on leave
   const handleEnterPanel = () => {
-    // if a close was scheduled due to rail leave, cancel it
-    if (!isOpen) setOpen(true);
+    // cancel any pending close when hovering panel and ensure it stays open
+    clearCloseTimer();
+    if (!isOpen) {
+      setOpen(true);
+    }
   };
   const handleLeavePanel = () => {
     requestClose({ clear: true });

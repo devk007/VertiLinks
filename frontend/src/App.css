@@ -1,0 +1,20 @@
+.whatsapp-float {
+  animation: whatsapp-bob 2.4s ease-in-out infinite;
+  will-change: transform;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  animation-play-state: paused;
+  transform: translateY(-2px) scale(1.05);
+}
+
+@keyframes whatsapp-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}

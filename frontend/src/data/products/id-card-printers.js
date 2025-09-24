@@ -1,6 +1,15 @@
 // src/data/products/id-card-printers.js
 // NOTE: is file me form data NAHI rakha gaya (forms will be independent component)
 import {IdCard} from 'lucide-react';
+import ZC from '../../assets/products/HID.png'
+import ZC1 from '../../assets/products/zc100.webp'
+import ZC12 from '../../assets/products/ZC100(2).png'
+import ZC3 from '../../assets/products/magic300.png'
+import Z from '../../assets/products/zebra-technologies-logo.svg'
+import E from '../../assets/products/evolis-seeklogo.png'
+import M from '../../assets/products/magicard-logo.webp'
+import H from '../../assets/products/hid-fargo.webp'
+
 export default {
   // ------------------------------------------------------------------
   // CATEGORY METADATA (used across all 3 levels if needed)
@@ -51,8 +60,8 @@ export default {
       {
         slug: "zebra",
         name: "Zebra",
-        logo: "/assets/brands/zebra.svg",
-        banner: "/assets/banners/zebra-idcards.jpg",
+        logo: Z,
+        banner: Z,
         blurb:
           "Enterprise printers with secure ribbons and simple cartridge loading. ZC series is compact yet powerful.",
         highlights: [
@@ -71,8 +80,8 @@ export default {
       {
         slug: "evolis",
         name: "Evolis",
-        logo: "/assets/brands/evolis.svg",
-        banner: "/assets/banners/evolis-idcards.jpg",
+        logo: E,
+        banner: E,
         blurb: "High-speed issuance with advanced lamination and encoders.",
         highlights: ["Primacy 2 series", "300–600 dpi", "Lamination module"],
         industries: ["Banking", "Government", "Corporate"],
@@ -82,8 +91,8 @@ export default {
       {
         slug: "magicard",
         name: "Magicard",
-        logo: "/assets/brands/magicard.svg",
-        banner: "/assets/banners/magicard-idcards.jpg",
+        logo: M,
+        banner: M,
         blurb: "UK engineering with HoloKote® visual security and low running cost.",
         highlights: ["HoloKote® watermark", "Dual-side options", "Lamination kits"],
         industries: ["Education", "SMB", "Events"],
@@ -94,7 +103,7 @@ export default {
         slug: "hid-fargo",
         name: "HID Fargo",
         logo: "/assets/brands/hid-fargo.svg",
-        banner: "/assets/banners/hid-fargo-idcards.jpg",
+        banner: H,
         blurb: "Enterprise security with custom watermarks and network printing.",
         highlights: ["DTC/HDP ranges", "Custom watermark", "High-cap ribbons"],
         industries: ["Government", "Enterprise"],
@@ -116,7 +125,7 @@ export default {
           "ZC family delivers compact design, secure ribbons and effortless cartridges — perfect for desks to bureaus.",
         bg: "/assets/banners/zebra-idcards.jpg",
         breadcrumb: "Home / Products / ID Card Printers / Zebra",
-        cta: { label: "Explore Models", to: "#models" },
+        cta: { label: "Explore Models", to: "/contact" },
       },
       keyBenefits: [
         { icon: "BadgeCheck", title: "Easy Media", desc: "Cartridge-based ribbons reduce handling errors." },
@@ -127,7 +136,7 @@ export default {
         {
           slug: "zc100",
           name: "ZC100",
-          image: "/assets/products/idcards/zebra-zc100.jpg",
+          image: ZC,
           brief: "Compact single-side printer for low to medium volumes.",
           features: ["300 dpi edge-to-edge", "USB 2.0 (Ethernet opt.)", "Easy cartridge ribbons"],
           to: "/products/id-card-printers/zebra/zc100",
@@ -135,7 +144,7 @@ export default {
         {
           slug: "zc300",
           name: "ZC300",
-          image: "/assets/products/idcards/zebra-zc300.jpg",
+          image: ZC3,
           brief: "Flexible single/dual-side issuance with secure ribbons.",
           features: ["Dual-side option", "Multiple ribbon choices", "Network printing"],
           to: "/products/id-card-printers/zebra/zc300",
@@ -163,6 +172,7 @@ export default {
           brief: "High-volume dual-side printer with lamination.",
           features: ["300/600 dpi", "Encoders", "Lamination module"],
           to: "/products/id-card-printers/evolis/primacy-2",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -187,6 +197,7 @@ export default {
           brief: "Mid-range printer with HoloKote® security.",
           features: ["300 dpi", "Dual-side option", "Encoder options"],
           to: "/products/id-card-printers/magicard/300",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         {
           slug: "pronto-100",
@@ -219,6 +230,7 @@ export default {
           brief: "Cost-effective enterprise security with watermark.",
           features: ["Custom watermark", "High-cap ribbons", "Encoding options"],
           to: "/products/id-card-printers/hid-fargo/dtc1500",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -235,11 +247,12 @@ export default {
           title: "Zebra ZC100",
           description: "Compact single-side card printer for low to medium volumes.",
           bg: "/assets/products/idcards/zebra-zc100-hero.jpg",
+          cta: { label: "Get In Touch", to: "/contact" },
           breadcrumb: "Home / Products / ID Card Printers / Zebra / ZC100",
         },
         gallery: [
-          "/assets/products/idcards/zebra-zc100.jpg",
-          "/assets/products/idcards/zebra-zc100-2.jpg",
+          ZC1,
+          ZC12,
         ],
         overview:
           "ZC100 simplifies card issuance with a compact design, easy-to-load cartridges, and reliable 300-dpi output. Ideal for visitor passes and small teams.",
@@ -259,7 +272,7 @@ export default {
         },
         downloads: [{ label: "Product Brochure", href: "/downloads/zebra/zc100.pdf" }],
         related: [
-          { href: "/products/id-card-printers/zebra/zc300", name: "Zebra ZC300", image: "/assets/products/idcards/zebra-zc300.jpg" },
+          { href: "/products/id-card-printers/zebra/zc300", name: "Zebra ZC300", image: ZC3 },
           { href: "/products/id-card-printers/evolis/primacy-2", name: "Evolis Primacy 2", image: "/assets/products/idcards/evolis-primacy-2.jpg" },
         ],
       },
@@ -270,6 +283,7 @@ export default {
           description: "Flexible single/dual-side printer with advanced ribbon options.",
           bg: "/assets/products/idcards/zebra-zc300-hero.jpg",
           breadcrumb: "Home / Products / ID Card Printers / Zebra / ZC300",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: [
           "/assets/products/idcards/zebra-zc300.jpg",
@@ -298,6 +312,7 @@ export default {
           description: "High-volume dual-side issuance with lamination & encoders.",
           bg: "/assets/products/idcards/evolis-primacy-2-hero.jpg",
           breadcrumb: "Home / Products / ID Card Printers / Evolis / Primacy 2",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/idcards/evolis-primacy-2.jpg"],
         overview:
@@ -323,6 +338,7 @@ export default {
           description: "Mid-range printer with HoloKote® visual security.",
           bg: "/assets/products/idcards/magicard-300-hero.jpg",
           breadcrumb: "Home / Products / ID Card Printers / Magicard / 300",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/idcards/magicard-300.jpg"],
         overview:
@@ -340,6 +356,7 @@ export default {
           description: "Entry-level, fast single-side issuance.",
           bg: "/assets/products/idcards/pronto-100-hero.jpg",
           breadcrumb: "Home / Products / ID Card Printers / Magicard / Pronto 100",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/idcards/pronto-100.jpg"],
         overview:
@@ -360,6 +377,7 @@ export default {
           description: "Enterprise-security features with custom watermark printing.",
           bg: "/assets/products/idcards/fargo-dtc1500-hero.jpg",
           breadcrumb: "Home / Products / ID Card Printers / HID Fargo / DTC1500",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/idcards/fargo-dtc1500.jpg"],
         overview:

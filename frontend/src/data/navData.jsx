@@ -34,6 +34,26 @@ import {
 } from "lucide-react";
 
 const navData = {
+
+  topbar: {
+    phone: {
+      label: "+91 98 7654 3210",
+      short: "+91 9876...",
+      raw: "+919876543210",
+    },
+    email: {
+      label: "hello@vertilinks.com",
+      short: "hello@...",
+      raw: "hello@vertilinks.com",
+    },
+    whatsapp: {
+      label: "WhatsApp",
+      number: "+919876543210",
+      link: "https://wa.me/919876543210", // change if you use a custom wa.me message
+    },
+  },
+
+
   // Top-right / small items: sirf Contact ki demand thi
   utility: [
     { label: "Contact", to: "/contact" },
@@ -51,17 +71,17 @@ const navData = {
           "End-to-end IT & security solutions for modern businesses: from time attendance and access control to cloud, network security, and managed support.",
         cta: { label: "Explore more", to: "/solutions" },
         links: [
-          { label: "Time Attendance System", to: "/solutions/time-attendance", icon: Clock },
-          { label: "Access Control System", to: "/solutions/access-control", icon: KeyRound },
-          { label: "CCTV Security & Surveillance", to: "/solutions/cctv-surveillance", icon: Camera },
-          { label: "Audio Video Solutions", to: "/solutions/audio-video", icon: MonitorPlay },
-          { label: "Structured Cabling Solution", to: "/solutions/structured-cabling", icon: Cable },
-          { label: "PABX Solution", to: "/solutions/pabx", icon: Phone },
-          { label: "Cloud Solutions", to: "/solutions/cloud", icon: Cloud },
-          { label: "Firewall & Gateway System", to: "/solutions/firewall-gateway", icon: Shield },
-          { label: "SEO Services", to: "/solutions/seo", icon: Search },
-          { label: "Website Development Services", to: "/solutions/website-development", icon: Code },
-          { label: "Digital Marketing Solution", to: "/solutions/digital-marketing", icon: MonitorPlay },
+          { label: "Time Attendance System", to: "/solutions/time-attendance-system", icon: Clock },
+          { label: "Access Control System", to: "/solutions/access-control-system", icon: KeyRound },
+          { label: "CCTV Security & Surveillance", to: "/solutions/cctv-security-surveillance", icon: Camera },
+          { label: "Audio Video Solutions", to: "/solutions/audio-video-solutions", icon: MonitorPlay },
+          { label: "Structured Cabling Solution", to: "/solutions/structured-cabling-solution", icon: Cable },
+          { label: "PABX Solution", to: "/solutions/pabx-solution", icon: Phone },
+          { label: "Cloud Solutions", to: "/solutions/cloud-solutions", icon: Cloud },
+          { label: "Firewall & Gateway System", to: "/solutions/firewall-gateway-system", icon: Shield },
+          { label: "SEO Services", to: "/solutions/seo-services", icon: Search },
+          { label: "Website Development Services", to: "/solutions/website-development-services", icon: Code },
+          { label: "Digital Marketing Solution", to: "/solutions/digital-marketing-solution", icon: MonitorPlay },
           { label: "Microsoft Services", to: "/solutions/microsoft-services", icon: Wrench },
           { label: "IT Support & AMC", to: "/solutions/it-support-amc", icon: Wrench },
         ],
@@ -78,12 +98,12 @@ const navData = {
           "Business-ready software stack: attendance, visitor & canteen management, access control, and full-cycle custom & ERP development.",
         cta: { label: "Explore more", to: "/softwares" },
         links: [
-          { label: "Time Attendance Software", to: "/softwares/time-attendance", icon: Clock },
-          { label: "Visitor Management Software", to: "/softwares/visitor-management", icon: IdCard },
-          { label: "Canteen Management Software", to: "/softwares/canteen-management", icon: Utensils },
-          { label: "Access Control Software", to: "/softwares/access-control", icon: KeyRound },
+          { label: "Time Attendance Software", to: "/softwares/time-attendance-software", icon: Clock },
+          { label: "Visitor Management Software", to: "/softwares/visitor-management-software", icon: IdCard },
+          { label: "Canteen Management Software", to: "/softwares/canteen-management-software", icon: Utensils },
+          { label: "Access Control Software", to: "/softwares/access-control-software", icon: KeyRound },
           { label: "Mobile App Development", to: "/softwares/mobile-app-development", icon: Smartphone },
-          { label: "Custom Application Development", to: "/softwares/custom-application", icon: Code },
+          { label: "Custom Application Development", to: "/softwares/custom-application-development", icon: Code },
           { label: "ERP Solutions", to: "/softwares/erp-solutions", icon: Code },
         ],
       },
@@ -101,7 +121,7 @@ const navData = {
         links: [
           { label: "ID Card Printers", to: "/products/id-card-printers", icon: Printer },
           { label: "Server & Storages", to: "/products/server-and-storages", icon: Server },
-          { label: "Laptops & Desktop Computers", to: "/products/laptops-and-desktops", icon: Laptop },
+          { label: "Laptops & Desktop Computers", to: "/products/laptops-and-desktop-computers", icon: Laptop },
           { label: "Printers & Scanners", to: "/products/printers-and-scanners", icon: Scan },
           { label: "CCTV & IP Cameras", to: "/products/cctv-ip-cameras", icon: Camera },
           { label: "Face & Biometric Terminals", to: "/products/face-biometric-terminals", icon: Fingerprint },
@@ -144,8 +164,9 @@ const navData = {
       panel: { 
         title: "Support",
         intro: "You can download and use the fingerprint scanner driver and SDK for developing your application.",
+        cta: { label: "Connect Now", to: "/contact" },
         links: [
-          { label: "Email:- services@vertilinks.com", to: "mailto:services@vertilinks.com", icon: Mail }, 
+          { label: "Email:- services@ vertilinks.com", to: "mailto:services@vertilinks.com", icon: Mail }, 
           { label: "Phone:- 0505810499", to: "tel:0505810499", icon: Phone }, 
           { label: "Warranty & RMA Process", to: "/support/warranty-rma", icon: Database }, 
           { label: "Support Ticket", to: "/support/ticket", icon: KeyRound }, 

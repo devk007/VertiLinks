@@ -10,41 +10,41 @@ function Tag({ label }) {
 }
 
 // Technology Card
-function TechCard({ image, title, description, topTags, bottomTags }) {
-  return (
-    <div className="bg-[#f3f3f1] rounded-2xl shadow-md overflow-hidden ">
-      {/* Image */}
-      {image && (
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-48 object-cover"
-        />
-      )}
+import { Link } from "react-router-dom";
 
-      {/* Content */}
+function TechCard({ image, title, description, topTags = [], bottomTags = [], href }) {
+  const Wrapper = href ? Link : "div";
+  return (
+    <Wrapper
+      className="group block h-full overflow-hidden rounded-2xl bg-[#f3f3f1] shadow-md transition duration-200 hover:-translate-y-1 hover:shadow-xl"
+      to={href || undefined}
+    >
+      {image ? (
+        <img src={image} alt={title} className="h-48 w-full object-cover transition duration-200 group-hover:scale-105" />
+      ) : null}
+
       <div className="p-6">
-        {/* Top tags */}
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="hidden flex-wrap gap-2 pb-4 md:flex">
           {topTags.map((tag, i) => (
             <Tag key={i} label={tag} />
           ))}
         </div>
 
-        {/* Title */}
-        <h3 className="text-xl font-semibold mb-3">{title}</h3>
+        <h3 className="text-xl font-semibold text-slate-900 group-hover:text-sky-700">
+          {title}
+        </h3>
 
-        {/* Description */}
-        <p className="text-gray-600 leading-relaxed mb-4">{description}</p>
+        <p className="mt-3 text-sm leading-relaxed text-slate-600">
+          {description}
+        </p>
 
-        {/* Bottom tags */}
-        <div className="flex flex-wrap gap-2">
+        <div className="hidden flex-wrap gap-2 pt-4 md:flex">
           {bottomTags.map((tag, i) => (
             <Tag key={i} label={tag} />
           ))}
         </div>
       </div>
-    </div>
+    </Wrapper>
   );
 }
 

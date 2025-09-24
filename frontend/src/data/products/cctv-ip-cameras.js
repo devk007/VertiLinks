@@ -97,6 +97,7 @@ export default {
           brief: "5MP dome with Lightfinder 2.0.",
           features: ["Lightfinder", "Zipstream", "WDR Forensic"],
           to: "/products/cctv-ip-cameras/axis/p3265-lv",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
       ],
     },
@@ -111,6 +112,7 @@ export default {
           bg: "/assets/products/cctv/hik-colorvu-hero.jpg",
           breadcrumb:
             "Home / Products / CCTV & IP Cameras / Hikvision / ColorVu Dome 4MP",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/cctv/hik-colorvu.jpg"],
         overview:
@@ -129,6 +131,7 @@ export default {
           bg: "/assets/products/cctv/axis-p32-hero.jpg",
           breadcrumb:
             "Home / Products / CCTV & IP Cameras / Axis / P3265-LV",
+          cta: { label: "Get In Touch", to: "/contact" },
         },
         gallery: ["/assets/products/cctv/axis-p32.jpg"],
         overview: "Excellent image in challenging light with efficient bitrate.",

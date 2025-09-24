@@ -3,6 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import MegaPanel from "./MegaPanel";
 import navData from "../data/navData";
 import logo from "../assets/x6ioTZ01.svg"
+import { Phone, Mail} from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar({
   durationMs = 320,                           // panel open/close duration
@@ -166,8 +168,6 @@ export default function Navbar({
     }, durationMs + 20);
   };
 
-  const current = navData.main.find((m) => m.id === activeId);
-
   // helper for mobile
   const getPanelLinks = (panel) => {
     if (!panel) return [];
@@ -194,6 +194,14 @@ export default function Navbar({
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileExpandedId, setMobileExpandedId] = useState(null);
 
+  const current = navData.main.find((m) => m.id === activeId);
+
+  const handleMegaPanelNavigate = () => {
+    closeNow(true);
+    setMobileExpandedId(null);
+    setMobileOpen(false);
+  };
+
   const transformLabel = (label) => {
     if (label === "OEM & ODM Products") return "Products";
     if (label === "Our Brands") return "Brands";
@@ -209,6 +217,77 @@ export default function Navbar({
           scrolled ? "bg-[#f3f3f1] text-gray-900" : "bg-transparent text-white"
         }`}
       >
+
+        <div
+          className={`w-full ${scrolled ? "bg-white text-gray-900" : "bg-white text-gray-900"}`}
+        >
+          <div className="max-w-7xl mx-auto px-5">
+            <div className="flex items-center justify-end gap-5 text-[13px] py-2">
+
+              {/* Phone */}
+              <a
+                href={`tel:${navData?.topbar?.phone?.raw ?? ""}`}
+                className="inline-flex items-center gap-2 hover:opacity-80"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  className="w-4 h-4"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="#4CAF50"
+                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2z"
+                  />
+                </svg>
+                <span className="hidden lg:inline">{navData?.topbar?.phone?.label}</span>
+              </a>
+
+              {/* Email */}
+              <a
+                href={`mailto:${navData?.topbar?.email?.raw ?? ""}`}
+                className="inline-flex items-center gap-2 hover:opacity-80"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  className="w-4 h-4"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="#4285F4"
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"
+                  />
+                  <path
+                    fill="#FFFFFF"
+                    d="M20 4L12 11L4 4h16z"
+                    opacity="0.8"
+                  />
+                  <path
+                    fill="#1A73E8"
+                    d="M4 18V6.268l8 5.001l8-5.001V18H4z"
+                  />
+                </svg>
+                <span className="hidden lg:inline">{navData?.topbar?.email?.label}</span>
+              </a>
+
+              {/* WhatsApp (Final Accurate and Large Icon) */}
+              <a
+                href={navData?.topbar?.whatsapp?.link ?? "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:opacity-80"
+                aria-label="WhatsApp"
+                title="Chat on WhatsApp"
+              >
+               <FaWhatsapp className="bg-[#25D366] rounded-full"/>
+                <span className="hidden lg:inline">{navData?.topbar?.whatsapp?.label}</span>
+              </a>
+            </div>
+          </div>
+        </div>
         {/* main bar */}
         <nav className="max-w-7xl mx-auto px-5">
           <div className="flex items-center justify-between py-3">
@@ -284,8 +363,8 @@ export default function Navbar({
         >
           <div className="mx-auto w-full max-w-[1200px] px-6 py-6">
             <section className={microFade ? "animate-contentFade" : ""} key={contentKey}>
-              {navData.main.find((m) => m.id === activeId)?.panel && (
-                <MegaPanel {...navData.main.find((m) => m.id === activeId).panel} />
+              {current?.panel && (
+                <MegaPanel {...current.panel} onClose={handleMegaPanelNavigate} />
               )}
             </section>
           </div>
@@ -305,7 +384,7 @@ export default function Navbar({
           />
 
           {/* white panel */}
-          <div className="relative z-10 w-full max-w-[100vw] mx-auto my-auto bg-white rounded-xl overflow-y-auto h-[90vh]">
+          <div className="relative z-10 w-full max-w-[100vw] mx-auto my-auto bg-white rounded-xl overflow-y-auto h-[60vh]">
             {/* top bar with logo + close */}
             <div className="flex items-center justify-between px-6 py-4 border-b">
               <Link
@@ -316,7 +395,7 @@ export default function Navbar({
                 }}
               >
                 <img
-                  src="https://vertilinks.com/wp-content/uploads/2024/06/WhatsApp-Image-2025-06-04-at-17.56.18_ea0adaff.jpg"
+                  src={logo}
                   alt="Logo"
                   className="h-8"
                 />
@@ -362,7 +441,7 @@ export default function Navbar({
 
                   {mobileExpandedId === item.id && (
                     <div className="px-6 pb-4">
-                      <MegaPanel {...item.panel} />
+                      <MegaPanel {...item.panel} onClose={handleMegaPanelNavigate} />
                     </div>
                   )}
                 </div>
