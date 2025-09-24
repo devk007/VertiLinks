@@ -4,7 +4,7 @@ import {IdCard} from 'lucide-react';
 import ZC from '../../assets/products/HID.png'
 import ZC1 from '../../assets/products/zc100.webp'
 import ZC12 from '../../assets/products/ZC100(2).png'
-import ZC3 from '../../assets/products/magic300.png'
+import ZC3 from '../../assets/products/Magic300.png'
 import Z from '../../assets/products/zebra-technologies-logo.svg'
 import E from '../../assets/products/evolis-seeklogo.png'
 import M from '../../assets/products/magicard-logo.webp'
