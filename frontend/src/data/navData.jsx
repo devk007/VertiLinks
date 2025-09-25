@@ -125,7 +125,7 @@ const navData = {
           { label: "Printers & Scanners", to: "/products/printers-and-scanners", icon: Scan },
           { label: "CCTV & IP Cameras", to: "/products/cctv-ip-cameras", icon: Camera },
           { label: "Face & Biometric Terminals", to: "/products/face-biometric-terminals", icon: Fingerprint },
-          { label: "Turnstile & Speed Gates", to: "/products/turnstile-speed-gates", icon: DoorOpen },
+          { label: "Turnstile & Speed Gates", to: "/products/turnstile-and-speed-gates", icon: DoorOpen },
           { label: "Gate Barriers", to: "/products/gate-barriers", icon: DoorClosed },
           { label: "Designer Tablets & Displays", to: "/products/designer-tablets-displays", icon: Tablet },
         ],
