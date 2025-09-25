@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 /**
  * Full-page Hero section
@@ -50,12 +51,23 @@ export default function Hero({
           </p>
         )}
         {cta && (
-          <a
-            href={cta.to}
-            className="inline-block mt-8 rounded-lg bg-white text-blue-600 font-semibold px-6 py-3 hover:bg-gray-100"
-          >
-            {cta.label}
-          </a>
+          cta.to ? (
+            <Link
+              to={cta.to}
+              className="inline-block mt-8 rounded-lg bg-white text-blue-600 font-semibold px-6 py-3 hover:bg-gray-100"
+            >
+              {cta.label}
+            </Link>
+          ) : (
+            <a
+              href={cta.href}
+              target={cta.target}
+              rel={cta.rel}
+              className="inline-block mt-8 rounded-lg bg-white text-blue-600 font-semibold px-6 py-3 hover:bg-gray-100"
+            >
+              {cta.label}
+            </a>
+          )
         )}
       </div>
     </section>
