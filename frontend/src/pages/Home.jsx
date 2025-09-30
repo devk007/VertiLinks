@@ -17,7 +17,7 @@ function Home() {
   return (
     <>
         <Navbar/>
-        <Hero bg={bgImg}
+        <Hero bg='https://res.cloudinary.com/dzrzbdypl/image/upload/f_auto,q_auto/v1759216743/premium_photo-1661963212517-830bbb7d76fc_ivndtb.avif'
         title="Innovation Driven, Security Focused."
         description="VertiLinks stands at the forefront of IT and security innovation, delivering integrated solutions that safeguard businesses and empower digital transformation. From infrastructure and networking to surveillance and cloud, we combine expertise with trust to help enterprises grow with confidence."
         cta={{ label: "Get In Touch", to: "/contact" }} type="home" className="h-screen"/>
