@@ -1,11 +1,11 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import bgImg from '../assets/istockphoto-181098768-1024x1024.jpg'
 import Navbar from '../components/Navbar'
 import OverviewGrid from '../components/OverviewGrid'
 import WhyVertiLinks from '../components/WhyVertiLinks'
 import ScheduleCTA from '../components/ScheduleCTA'
 import Footer from '../components/Footer'
+import images from '../data/images'
 import { productsOverviewItems } from "../data/productsOverviewData";
 
 
@@ -13,7 +13,7 @@ function Products() {
   return (
     <>
       <Navbar/>
-      <Hero bg={bgImg}
+      <Hero bg={images.home.tech.three}
         title="Products"
         description="Vertilinks offers a cutting edge range of industrial and commercial security products that will help to safeguard your business and facilities. Most of the times the companies get confused in deciding whether to invest in a branded or local security system, but we are here to help you in making things easier.."
         cta={{ label: "Get In Touch", to: "/contact" }} className="h-screen" />

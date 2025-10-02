@@ -7,6 +7,7 @@ import faceBiometric from "./face-biometric";
 import turnstileSpeedGates from "./turnstile-speed-gates";
 import gateBarriers from "./gate-barriers";
 import designerTablets from "./designer-tablets-displays";
+import timeAttendance from "./time-attendance";
 
 export default {
   [idCardPrinters.slug]: idCardPrinters,
@@ -18,4 +19,5 @@ export default {
   [turnstileSpeedGates.slug]: turnstileSpeedGates,
   [gateBarriers.slug]: gateBarriers,
   [designerTablets.slug]: designerTablets,
+  [timeAttendance.slug]: timeAttendance,
 };

@@ -26,7 +26,7 @@ export default function CatalogList({ data, kind = "product" }) {
     title: m.name,
     image: m.image,
     description: m.brief,
-    features: m.features,
+    features: m.features || m.summaryFeatures || [],
     href: m.to || `/${isProducts ? "products" : "solutions"}/${category}/${level2}/${m.slug}`,
     oem: true, // if you show OEM badge
   }));

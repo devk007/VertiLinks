@@ -1,6 +1,6 @@
+import images from "../data/images";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/x6ioTZ01.svg";
 import {
   MapPin,
   Mail,
@@ -10,6 +10,8 @@ import {
   Twitter,
   ArrowUp,
 } from "lucide-react";
+
+const LOGO_SRC = images.branding.logo;
 
 const productLinks = [
   { label: "Server & Storage Solutions", to: "/products/server-storage" },
@@ -53,7 +55,7 @@ export default function Footer() {
       <div className="relative mx-auto flex w-full max-w-none flex-col gap-10 px-17 py-12 lg:flex-row lg:items-start">
         <div className="max-w-sm space-y-4 lg:max-w-xs">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="VertiLinks" className="h-12 w-auto" />
+            <img src={LOGO_SRC} alt="VertiLinks" className="h-12 w-auto" />
           </div>
           <p className="text-sm leading-6 opacity-95">
             <span className="font-semibold text-white">Leading IT solution provider in UAE.</span> We strive to provide the best IT, Security and Identification solutions. For Retail Product Requirement, please checkout

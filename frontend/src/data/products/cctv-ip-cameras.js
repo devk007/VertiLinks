@@ -1,3 +1,4 @@
+import images from '../images';
 import {Camera} from 'lucide-react';
 
 export default {
@@ -9,7 +10,7 @@ export default {
       title: "CCTV & IP Video",
       description:
         "Fixed, varifocal and PTZ cameras with NVR/VMS, analytics and remote access.",
-      bg: "/assets/heroes/hero-cctv.jpg",
+      bg: images.products.hero,
       breadcrumb: "Home / Products / CCTV & IP Cameras",
       cta: { label: "Plan a Site Survey", to: "/contact" },
     },
@@ -30,23 +31,23 @@ export default {
       {
         slug: "hikvision",
         name: "Hikvision",
-        logo: "/assets/brands/hikvision.svg",
-        banner: "/assets/banners/hikvision.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Value-packed cameras with ColorVu/Acusense analytics.",
         highlights: ["ColorVu", "AcuSense", "PoE NVRs"],
         industries: ["Retail", "SMB", "Residential"],
-        preview: [{ name: "ColorVu Dome", image: "/assets/products/cctv/hik-colorvu.jpg" }],
+        preview: [{ name: "ColorVu Dome", image: images.products.hero }],
         to: "/products/cctv-ip-cameras/hikvision",
       },
       {
         slug: "axis",
         name: "Axis Communications",
-        logo: "/assets/brands/axis.svg",
-        banner: "/assets/banners/axis.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Premium IP cameras with superior image quality and reliability.",
         highlights: ["Lightfinder", "Zipstream", "ONVIF"],
         industries: ["Enterprise", "Critical", "Airports"],
-        preview: [{ name: "P32 Dome", image: "/assets/products/cctv/axis-p32.jpg" }],
+        preview: [{ name: "P32 Dome", image: images.products.hero }],
         to: "/products/cctv-ip-cameras/axis",
       },
     ],
@@ -57,7 +58,7 @@ export default {
       hero: {
         title: "Hikvision IP Cameras",
         description: "ColorVu for vivid color at night and AcuSense to reduce false alarms.",
-        bg: "/assets/banners/hikvision.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Products / CCTV & IP Cameras / Hikvision",
       },
       keyBenefits: [
@@ -69,7 +70,7 @@ export default {
         {
           slug: "colorvu-dome-4mp",
           name: "ColorVu Dome 4MP",
-          image: "/assets/products/cctv/hik-colorvu.jpg",
+          image: images.products.hero,
           brief: "4MP fixed lens with vivid night color.",
           features: ["F1.0 aperture", "Built-in white light", "H.265+"],
           to: "/products/cctv-ip-cameras/hikvision/colorvu-dome-4mp",
@@ -81,7 +82,7 @@ export default {
       hero: {
         title: "Axis IP Cameras",
         description: "Reliable performance with Lightfinder and Zipstream.",
-        bg: "/assets/banners/axis.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Products / CCTV & IP Cameras / Axis",
       },
       keyBenefits: [
@@ -93,7 +94,7 @@ export default {
         {
           slug: "p3265-lv",
           name: "Axis P3265-LV",
-          image: "/assets/products/cctv/axis-p32.jpg",
+          image: images.products.hero,
           brief: "5MP dome with Lightfinder 2.0.",
           features: ["Lightfinder", "Zipstream", "WDR Forensic"],
           to: "/products/cctv-ip-cameras/axis/p3265-lv",
@@ -109,18 +110,18 @@ export default {
         hero: {
           title: "Hikvision ColorVu Dome 4MP",
           description: "Color at night with smart alerts.",
-          bg: "/assets/products/cctv/hik-colorvu-hero.jpg",
+          bg: images.products.hero,
           breadcrumb:
             "Home / Products / CCTV & IP Cameras / Hikvision / ColorVu Dome 4MP",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/cctv/hik-colorvu.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Delivers bright color images 24/7, ideal for entrances and yards.",
         features: ["F1.0 lens", "White light LEDs", "AcuSense filtering"],
         specs: { Resolution: "4MP", Lens: "2.8mm", Rating: "IP67" },
         downloads: [{ label: "Datasheet", href: "/downloads/cctv/hik-colorvu-4mp.pdf" }],
-        related: [{ href: "/products/cctv-ip-cameras/axis/p3265-lv", name: "Axis P3265-LV", image: "/assets/products/cctv/axis-p32.jpg" }],
+        related: [{ href: "/products/cctv-ip-cameras/axis/p3265-lv", name: "Axis P3265-LV", image: images.products.hero }],
       },
     },
     axis: {
@@ -128,17 +129,17 @@ export default {
         hero: {
           title: "Axis P3265-LV",
           description: "5MP dome with Lightfinder 2.0 and Zipstream.",
-          bg: "/assets/products/cctv/axis-p32-hero.jpg",
+          bg: images.products.hero,
           breadcrumb:
             "Home / Products / CCTV & IP Cameras / Axis / P3265-LV",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/cctv/axis-p32.jpg"],
+        gallery: [images.products.hero],
         overview: "Excellent image in challenging light with efficient bitrate.",
         features: ["Lightfinder 2.0", "Zipstream", "PoE"],
         specs: { Resolution: "5MP", WDR: "Forensic WDR", Temp: "-30 to 55°C" },
         downloads: [{ label: "Datasheet", href: "/downloads/cctv/axis-p3265.pdf" }],
-        related: [{ href: "/products/cctv-ip-cameras/hikvision/colorvu-dome-4mp", name: "Hikvision ColorVu 4MP", image: "/assets/products/cctv/hik-colorvu.jpg" }],
+        related: [{ href: "/products/cctv-ip-cameras/hikvision/colorvu-dome-4mp", name: "Hikvision ColorVu 4MP", image: images.products.hero }],
       },
     },
   },

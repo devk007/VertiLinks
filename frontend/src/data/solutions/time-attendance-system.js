@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   BellRing,
   CalendarCheck,
@@ -18,7 +19,7 @@ export default {
       title: "Automated Time & Attendance",
       description:
         "Capture accurate working hours, automate payroll inputs, and stay compliant with local labor laws using biometric and mobile attendance solutions.",
-      bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+      bg: images.home.about,
       breadcrumb: "Home / Solutions / Time Attendance System",
       cta: { label: "Book a Demo", to: "/contact" },
     },
@@ -49,8 +50,8 @@ export default {
       {
         slug: "essential-suite",
         name: "Essential Suite",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Cloud-ready attendance for SMEs with quick deployment and mobile approvals.",
         highlights: [
           "Mobile & biometric capture",
@@ -63,8 +64,8 @@ export default {
       {
         slug: "enterprise-suite",
         name: "Enterprise Suite",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Multi-location attendance with high-availability architecture and custom integrations.",
         highlights: [
           "High availability",
@@ -81,7 +82,7 @@ export default {
       hero: {
         title: "Essential Time Attendance Suite",
         description: "Quick to deploy attendance management for distributed teams.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / Time Attendance System / Essential Suite",
         cta: { label: "Explore Modules", to: "/contact" },
       },
@@ -94,7 +95,7 @@ export default {
         {
           slug: "starter-pack",
           name: "Starter Pack",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Up to 250 employees with biometric devices and cloud dashboard.",
           features: [
             "Cloud hosted dashboard",
@@ -106,7 +107,7 @@ export default {
         {
           slug: "growth-pack",
           name: "Growth Pack",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Scale to 1000 employees with multi-branch sync and mobile approvals.",
           features: [
             "Multi-branch sync",
@@ -121,7 +122,7 @@ export default {
       hero: {
         title: "Enterprise Attendance Suite",
         description: "Mission-critical platform with redundancy, custom policies, and analytics.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / Time Attendance System / Enterprise Suite",
       },
       keyBenefits: [
@@ -133,7 +134,7 @@ export default {
         {
           slug: "enterprise-core",
           name: "Enterprise Core",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Core platform with LDAP/AD sync and API gateway.",
           features: [
             "LDAP/AD integration",
@@ -146,7 +147,7 @@ export default {
         {
           slug: "insights-pack",
           name: "Insights Pack",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Add-on analytics with predictive absence modelling.",
           features: [
             "Predictive insights",
@@ -165,11 +166,11 @@ export default {
         hero: {
           title: "Starter Pack — Essential Suite",
           description: "Entry bundle with biometric devices and cloud dashboards for small teams.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Time Attendance System / Essential Suite / Starter Pack",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Deploy face or fingerprint terminals connected to the Essential Suite cloud portal. Automate attendance capture and basic leave workflows without custom development.",
         features: [
@@ -189,7 +190,7 @@ export default {
           {
             href: "/softwares/time-attendance-system/essential-suite/growth-pack",
             name: "Growth Pack",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -197,11 +198,11 @@ export default {
         hero: {
           title: "Growth Pack — Essential Suite",
           description: "Scale attendance across branches with mobile approvals and integrations.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Time Attendance System / Essential Suite / Growth Pack",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Add multi-branch sync, mobile approvals, and payroll connectors to the Essential Suite foundation. Ideal for organizations expanding across regions.",
         features: [
@@ -221,7 +222,7 @@ export default {
           {
             href: "/softwares/time-attendance-system/enterprise-suite/enterprise-core",
             name: "Enterprise Core",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -231,11 +232,11 @@ export default {
         hero: {
           title: "Enterprise Core — Attendance Suite",
           description: "High-availability attendance platform with LDAP and API connectivity.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Time Attendance System / Enterprise Suite / Enterprise Core",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Deploy redundant attendance servers with LDAP/AD sync and API gateway for seamless enterprise integrations.",
         features: [
@@ -255,7 +256,7 @@ export default {
           {
             href: "/softwares/time-attendance-system/enterprise-suite/insights-pack",
             name: "Insights Pack",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -263,11 +264,11 @@ export default {
         hero: {
           title: "Insights Pack — Attendance Suite",
           description: "Advanced analytics with predictive absence modelling and dashboards.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Time Attendance System / Enterprise Suite / Insights Pack",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Enhance your core platform with predictive analytics, scheduled reporting, and custom dashboards powered by BI connectors.",
         features: [
@@ -287,7 +288,7 @@ export default {
           {
             href: "/softwares/time-attendance-system/enterprise-suite/enterprise-core",
             name: "Enterprise Core",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },

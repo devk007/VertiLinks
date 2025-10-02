@@ -1,3 +1,4 @@
+import images from '../images';
 import {Shield} from 'lucide-react';
 
 export default {
@@ -9,7 +10,7 @@ export default {
       title: "Vehicular Gate Barriers",
       description:
         "Industrial-grade boom barriers with loop detectors, remotes and access integrations.",
-      bg: "/assets/heroes/hero-barrier.jpg",
+      bg: images.products.gateBarriers.hero,
       breadcrumb: "Home / Products / Gate Barriers",
       cta: { label: "Request Quote", to: "/contact" },
     },
@@ -30,23 +31,23 @@ export default {
       {
         slug: "faac",
         name: "FAAC",
-        logo: "/assets/brands/faac.svg",
-        banner: "/assets/banners/faac.jpg",
+        logo: images.products.gateBarriers.hero,
+        banner: images.products.gateBarriers.hero,
         blurb: "Italian engineered barriers for long life.",
         highlights: ["Rapid motors", "Robust build", "Accessories"],
         industries: ["Parking", "Industrial"],
-        preview: [{ name: "FAAC 615", image: "/assets/products/barrier/faac-615.jpg" }],
+        preview: [{ name: "FAAC 615", image: images.products.gateBarriers.hero }],
         to: "/products/gate-barriers/faac",
       },
       {
         slug: "nice",
         name: "NICE",
-        logo: "/assets/brands/nice.svg",
-        banner: "/assets/banners/nice.jpg",
+        logo: images.products.gateBarriers.hero,
+        banner: images.products.gateBarriers.hero,
         blurb: "Reliable barriers with modern controls.",
         highlights: ["3–6m arms", "LED options", "Safety devices"],
         industries: ["Residential", "Commercial"],
-        preview: [{ name: "Nice M3BAR", image: "/assets/products/barrier/nice-m3.jpg" }],
+        preview: [{ name: "Nice M3BAR", image: images.products.gateBarriers.hero }],
         to: "/products/gate-barriers/nice",
       },
     ],
@@ -57,7 +58,7 @@ export default {
       hero: {
         title: "FAAC Gate Barriers",
         description: "Durable motors for heavy use.",
-        bg: "/assets/banners/faac.jpg",
+        bg: images.products.gateBarriers.hero,
         breadcrumb: "Home / Products / Gate Barriers / FAAC",
       },
       keyBenefits: [
@@ -69,7 +70,7 @@ export default {
         {
           slug: "615",
           name: "FAAC 615",
-          image: "/assets/products/barrier/faac-615.jpg",
+          image: images.products.gateBarriers.hero,
           brief: "Standard barrier for 3–5m arms.",
           features: ["230V motor", "Manual release", "Loop ready"],
           to: "/products/gate-barriers/faac/615",
@@ -81,7 +82,7 @@ export default {
       hero: {
         title: "NICE Gate Barriers",
         description: "Modern controllers with smart accessories.",
-        bg: "/assets/banners/nice.jpg",
+        bg: images.products.gateBarriers.hero,
         breadcrumb: "Home / Products / Gate Barriers / NICE",
       },
       keyBenefits: [
@@ -93,7 +94,7 @@ export default {
         {
           slug: "m3bar",
           name: "Nice M3BAR",
-          image: "/assets/products/barrier/nice-m3.jpg",
+          image: images.products.gateBarriers.hero,
           brief: "3m rapid barrier for parking lanes.",
           features: ["Fast motor", "LED options", "Loop inputs"],
           to: "/products/gate-barriers/nice/m3bar",
@@ -109,17 +110,17 @@ export default {
         hero: {
           title: "FAAC 615",
           description: "3–5m barrier for commercial use.",
-          bg: "/assets/products/barrier/faac-615-hero.jpg",
+          bg: images.products.gateBarriers.hero,
           breadcrumb: "Home / Products / Gate Barriers / FAAC / 615",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/barrier/faac-615.jpg"],
+        gallery: [images.products.gateBarriers.hero],
         overview:
           "Well-proven model with reliable gearbox and accessories.",
         features: ["Manual release", "Boom lights", "Loop detectors"],
         specs: { Arm: "3–5m", IP: "IP54", Power: "230V" },
         downloads: [{ label: "Datasheet", href: "/downloads/barrier/faac-615.pdf" }],
-        related: [{ href: "/products/gate-barriers/nice/m3bar", name: "Nice M3BAR", image: "/assets/products/barrier/nice-m3.jpg" }],
+        related: [{ href: "/products/gate-barriers/nice/m3bar", name: "Nice M3BAR", image: images.products.gateBarriers.hero }],
       },
     },
     nice: {
@@ -127,17 +128,17 @@ export default {
         hero: {
           title: "Nice M3BAR",
           description: "Rapid 3m barrier for parking lanes.",
-          bg: "/assets/products/barrier/nice-m3-hero.jpg",
+          bg: images.products.gateBarriers.hero,
           breadcrumb: "Home / Products / Gate Barriers / NICE / M3BAR",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/barrier/nice-m3.jpg"],
+        gallery: [images.products.gateBarriers.hero],
         overview:
           "Fast opening time and LED accessories for visibility.",
         features: ["Rapid motor", "LED boom", "Safety sensors"],
         specs: { Arm: "3m", OpeningTime: "≈1.5s", Power: "230V" },
         downloads: [{ label: "Datasheet", href: "/downloads/barrier/nice-m3bar.pdf" }],
-        related: [{ href: "/products/gate-barriers/faac/615", name: "FAAC 615", image: "/assets/products/barrier/faac-615.jpg" }],
+        related: [{ href: "/products/gate-barriers/faac/615", name: "FAAC 615", image: images.products.gateBarriers.hero }],
       },
     },
   },

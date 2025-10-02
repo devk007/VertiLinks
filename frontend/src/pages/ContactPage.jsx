@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import bgImg from '../assets/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ContactForm from '../components/ContactForm'
 import navData from '../data/navData'
+import images from '../data/images'
 import { Mail, Phone } from 'lucide-react'
 import { FaWhatsapp } from 'react-icons/fa'
 
@@ -37,7 +37,7 @@ function ContactPage() {
     <>
         <Navbar/>
         <Hero
-          bg={bgImg}
+          bg={images.home.about}
           title="Let’s Build Your Next Project"
           description="Share your requirements and our consultants will get back within one business day with next steps."
           breadcrumb="Home / Contact"

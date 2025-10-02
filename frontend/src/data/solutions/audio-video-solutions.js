@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   AudioLines,
   LaptopMinimal,
@@ -17,7 +18,7 @@ export default {
       title: "Immersive Audio Video Experiences",
       description:
         "Deliver boardroom, classroom, and auditorium experiences with intuitive control and crystal-clear AV.",
-      bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+      bg: images.home.about,
       breadcrumb: "Home / Solutions / Audio Video Solutions",
       cta: { label: "Plan My AV", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "meeting-spaces",
         name: "Meeting Spaces",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Smart meeting rooms with intelligent video and touch control.",
         highlights: [
           "Certified codecs",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "experience-centres",
         name: "Experience Centres",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Large venues, signage, and immersive showrooms.",
         highlights: [
           "LED walls",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Smart Meeting Spaces",
         description: "Certified collaboration rooms with automation and analytics.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / Audio Video Solutions / Meeting Spaces",
         cta: { label: "Compare Rooms", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "huddle-room",
           name: "Huddle Room Kit",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "4-6 seats with all-in-one bar, wireless share, and scheduling panel.",
           features: [
             "All-in-one collaboration bar",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "boardroom",
           name: "Boardroom Kit",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Premium audio, dual displays, and custom automation scripts.",
           features: [
             "Dual 4K displays",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Experience Centre AV",
         description: "Immersive audio and visuals for showrooms and auditoriums.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / Audio Video Solutions / Experience Centres",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "auditorium",
           name: "Auditorium Pack",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Complete stage audio, lighting control, and projection system.",
           features: [
             "Stage audio",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "signage-network",
           name: "Signage Network",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Centralized CMS for video walls and interactive displays.",
           features: [
             "Central CMS",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Huddle Room Kit",
           description: "All-in-one collaboration bar, wireless presentation, and scheduling for small rooms.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Audio Video Solutions / Meeting Spaces / Huddle Room",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Transform 4-6 seat rooms with a single collaboration bar, wireless presentation, and door scheduling panel.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/audio-video-solutions/meeting-spaces/boardroom",
             name: "Boardroom Kit",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Boardroom Kit",
           description: "Premium audio, dual displays, and touch control for executive rooms.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Audio Video Solutions / Meeting Spaces / Boardroom",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Deliver a flagship boardroom with dual 4K displays, DSP tuned audio, and custom touch control scripts.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/audio-video-solutions/meeting-spaces/huddle-room",
             name: "Huddle Room Kit",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Auditorium Pack",
           description: "Stage audio, lighting integration, and projection for auditoriums.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Audio Video Solutions / Experience Centres / Auditorium",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Complete AVL solution including line-array audio, lighting control, and 4K projection with control automation.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/audio-video-solutions/experience-centres/signage-network",
             name: "Signage Network",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Signage Network",
           description: "Central CMS powering video walls and interactive signage.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Audio Video Solutions / Experience Centres / Signage Network",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Distribute content across video walls and kiosks with analytics and remote management.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/audio-video-solutions/experience-centres/auditorium",
             name: "Auditorium Pack",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },

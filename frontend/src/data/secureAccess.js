@@ -3,7 +3,7 @@
 export default {
   title: "Secure Digital Access with Biometric Precision",
   description:
-    "Mantra’s Logical Access Control System redefines digital security by replacing traditional passwords with biometric verification, ensuring that only authorized users can access sensitive applications, systems, or data. Whether deployed in government, enterprise, or high-compliance sectors, our solution brings unmatched identity assurance to your digital ecosystem.",
+    "Vertilinks’ Logical Access Control System redefines digital security by replacing traditional passwords with biometric verification, ensuring that only authorized users can access sensitive applications, systems, or data. Whether deployed in government, enterprise, or high-compliance sectors, our solution brings unmatched identity assurance to your digital ecosystem.",
 
   featuresHeading: "Key Features",
 

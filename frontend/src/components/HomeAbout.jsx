@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"
+import images from '../data/images'
 
 function HomeAbout() {
   return (
@@ -39,7 +39,7 @@ function HomeAbout() {
       {/* Right: fingerprint image */}
       <div className="relative z-0 w-full md:w-1/2 h-64 md:h-auto">
         <img
-          src={img}
+          src={images.home.about}
           alt="Fingerprint scanning"
           className="w-full h-full object-cover"
         />

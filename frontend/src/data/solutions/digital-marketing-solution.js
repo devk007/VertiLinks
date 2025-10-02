@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   BarChart3,
   BellRing,
@@ -17,7 +18,7 @@ export default {
       title: "Full-Funnel Digital Marketing",
       description:
         "Campaign strategy, creative, media buying, and analytics aligned to your growth goals.",
-      bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+      bg: images.home.about,
       breadcrumb: "Home / Solutions / Digital Marketing Solution",
       cta: { label: "Plan a Campaign", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "performance-suite",
         name: "Performance Suite",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Lead generation and e-commerce performance marketing retainer.",
         highlights: [
           "Paid search",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "engagement-suite",
         name: "Engagement Suite",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Brand storytelling, content marketing, and automation journeys.",
         highlights: [
           "Content calendars",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Performance Marketing Suite",
         description: "Paid media campaigns optimized for leads and conversions.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / Digital Marketing Solution / Performance Suite",
         cta: { label: "See Tiers", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "growth-tier",
           name: "Growth Tier",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Paid campaigns across two channels with weekly optimization.",
           features: [
             "Paid search",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "scale-tier",
           name: "Scale Tier",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Multi-channel strategy with CRO and automation support.",
           features: [
             "Display & video",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Engagement Marketing Suite",
         description: "Content, community, and lifecycle marketing programs.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / Digital Marketing Solution / Engagement Suite",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "content-engine",
           name: "Content Engine",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Content calendars, blog production, and social storytelling.",
           features: [
             "Editorial calendar",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "lifecycle",
           name: "Lifecycle Journeys",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Marketing automation, lead scoring, and nurture sequences.",
           features: [
             "Email automation",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Growth Tier",
           description: "Two-channel paid media management with weekly optimization.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Digital Marketing Solution / Performance Suite / Growth Tier",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Launch high-performing paid search and social campaigns with weekly optimization and reporting.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/digital-marketing-solution/performance-suite/scale-tier",
             name: "Scale Tier",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Scale Tier",
           description: "Multi-channel performance marketing with CRO and automation.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Digital Marketing Solution / Performance Suite / Scale Tier",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Add display, video, CRO support, and marketing automation to accelerate growth campaigns.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/digital-marketing-solution/performance-suite/growth-tier",
             name: "Growth Tier",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Content Engine",
           description: "Editorial calendars, SEO storytelling, and social content for engagement.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Digital Marketing Solution / Engagement Suite / Content Engine",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Produce consistent content across blogs and social with an editorial calendar and storytelling framework.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/digital-marketing-solution/engagement-suite/lifecycle",
             name: "Lifecycle Journeys",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Lifecycle Journeys",
           description: "Marketing automation, lead scoring, and nurture sequences.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Digital Marketing Solution / Engagement Suite / Lifecycle",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Automate customer journeys with email nurture, lead scoring, and lifecycle analytics.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/digital-marketing-solution/engagement-suite/content-engine",
             name: "Content Engine",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },

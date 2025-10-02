@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Code,
   Globe,
@@ -17,7 +18,7 @@ export default {
       title: "High-Performance Web Development",
       description:
         "Design and build responsive, secure websites that convert visitors into customers and integrate with your stack.",
-      bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+      bg: images.home.about,
       breadcrumb: "Home / Solutions / Website Development Services",
       cta: { label: "Discuss a Project", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "experience-sites",
         name: "Experience Sites",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Marketing and corporate sites with storytelling and lead capture.",
         highlights: [
           "Brand storytelling",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "commerce-sites",
         name: "Commerce Sites",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "E-commerce builds with headless architecture and ERP integrations.",
         highlights: [
           "Headless storefront",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Experience Website Studio",
         description: "Narrative-driven, high-converting websites with analytics baked in.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / Website Development Services / Experience Sites",
         cta: { label: "View Packages", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "launch-kit",
           name: "Launch Kit",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Corporate site up to 12 pages with CMS and analytics setup.",
           features: [
             "Design system",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "growth-kit",
           name: "Growth Kit",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Multi-language site with marketing automation and personalization.",
           features: [
             "Localization",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Commerce Website Studio",
         description: "High-converting commerce experiences with integrations and automations.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / Website Development Services / Commerce Sites",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "launch-commerce",
           name: "Launch Commerce",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Quick-to-market store with payment gateways and shipping setup.",
           features: [
             "Payment gateways",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "scale-commerce",
           name: "Scale Commerce",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Headless commerce with integrations, loyalty, and automation.",
           features: [
             "Headless architecture",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Launch Kit",
           description: "Corporate site up to 12 pages with CMS, tracking, and design system.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Website Development Services / Experience Sites / Launch Kit",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Craft a polished marketing site with UX workshops, responsive design, CMS setup, and analytics configuration.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/website-development-services/experience-sites/growth-kit",
             name: "Growth Kit",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Growth Kit",
           description: "Multi-language experience with automation, personalization, and experimentation.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Website Development Services / Experience Sites / Growth Kit",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Scale globally with localized content, marketing automation workflows, and personalization engines.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/website-development-services/experience-sites/launch-kit",
             name: "Launch Kit",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Launch Commerce",
           description: "E-commerce store with payments, shipping rules, and analytics.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Website Development Services / Commerce Sites / Launch Commerce",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Launch quickly with storefront setup, payment gateway integration, and shipping automation.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/website-development-services/commerce-sites/scale-commerce",
             name: "Scale Commerce",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Scale Commerce",
           description: "Headless commerce with ERP integration, loyalty, and automation.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / Website Development Services / Commerce Sites / Scale Commerce",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Deliver high-performance headless storefronts with ERP integration, loyalty, and automation.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/website-development-services/commerce-sites/launch-commerce",
             name: "Launch Commerce",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },

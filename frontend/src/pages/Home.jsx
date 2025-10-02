@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import bgImg from '../assets/premium_photo-1661963212517-830bbb7d76fc.avif'
 import TechnologySection from '../components/TechnologySection'
 import technologyCards from '../data/technologyData'
 import SideDock from '../components/SideDock'

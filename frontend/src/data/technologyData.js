@@ -1,11 +1,8 @@
-import cctvImg from '../assets/nick-loggie-fRVPzBYcd5A-unsplash.jpg'
-import FWImg from '../assets/compare-fibre-tiSE_paTt0A-unsplash.jpg'
-import ASImg from '../assets/premium_photo-1680807988328-7ba28ad24d9f.avif'
-import ACSImg from '../assets/premium_photo-1729091229423-96b85c74a815.avif'
+import images from './images';
 
 const technologyData = [
   {
-    image:cctvImg, 
+    image: images.home.tech.one,
     title: "CCTV Security and Surveillance",
     href: "/solutions/cctv-security-surveillance",
     description:
@@ -14,7 +11,7 @@ const technologyData = [
     bottomTags: ["HD/4K Cameras", "Remote Monitoring", "Video Analytics", "Night Vision", "ANPR Integration"],
   },
   {
-    image: FWImg, 
+    image: images.home.tech.two,
     title: "Firewall and Gateway System",
     href: "/solutions/firewall-gateway-system",
     description:
@@ -23,7 +20,7 @@ const technologyData = [
     bottomTags: ["Next-Gen Firewall", "VPN Security", "Intrusion Detection", "Content Filtering", "Zero Trust"],
   },
   {
-    image: ASImg,
+    image: images.home.tech.four,
     title: "Time Attendance and Access Control System",
     href: "/solutions/time-attendance-system",
     description:
@@ -32,7 +29,7 @@ const technologyData = [
     bottomTags: ["Biometric Attendance", "Shift Management", "Payroll Integration", "RFID/Smart Cards", "Mobile Access"],
   },
   {
-    image: ACSImg, 
+    image: images.home.hero,
     title: "Access Control System",
     href: "/solutions/access-control-system",
     description:

@@ -1,3 +1,4 @@
+import images from '../images';
 import {ScanFace} from 'lucide-react';
 
 export default {
@@ -9,7 +10,7 @@ export default {
       title: "Face & Biometric Terminals",
       description:
         "Attendance and access devices using face, fingerprint, palm and cards — online or standalone.",
-      bg: "/assets/heroes/hero-biometrics.jpg",
+      bg: images.products.idCardPrinters.hero,
       breadcrumb: "Home / Products / Face & Biometric Terminals",
       cta: { label: "Book a Demo", to: "/contact" },
     },
@@ -30,23 +31,23 @@ export default {
       {
         slug: "zkteco",
         name: "ZKTeco",
-        logo: "/assets/brands/zkteco.svg",
-        banner: "/assets/banners/zkteco.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Wide portfolio for attendance and access with cloud options.",
         highlights: ["Face & palm", "PoE", "Cloud APIs"],
         industries: ["Corporate", "Factories"],
-        preview: [{ name: "SpeedFace V5L", image: "/assets/products/bio/zkteco-v5l.jpg" }],
+        preview: [{ name: "SpeedFace V5L", image: images.products.idCardPrinters.hero }],
         to: "/products/face-biometric-terminals/zkteco",
       },
       {
         slug: "suprema",
         name: "Suprema",
-        logo: "/assets/brands/suprema.svg",
-        banner: "/assets/banners/suprema.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Premium terminals with BioStar 2 platform.",
         highlights: ["FaceStation", "Live Finger", "OSDP"],
         industries: ["Enterprise", "Govt"],
-        preview: [{ name: "FaceStation F2", image: "/assets/products/bio/suprema-f2.jpg" }],
+        preview: [{ name: "FaceStation F2", image: images.products.idCardPrinters.hero }],
         to: "/products/face-biometric-terminals/suprema",
       },
     ],
@@ -57,7 +58,7 @@ export default {
       hero: {
         title: "ZKTeco Terminals",
         description: "Affordable and feature-rich devices for T&A and access.",
-        bg: "/assets/banners/zkteco.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Products / Face & Biometric Terminals / ZKTeco",
       },
       keyBenefits: [
@@ -69,7 +70,7 @@ export default {
         {
           slug: "speedface-v5l",
           name: "SpeedFace V5L",
-          image: "/assets/products/bio/zkteco-v5l.jpg",
+          image: images.products.idCardPrinters.hero,
           brief: "Face & palm recognition with anti-spoofing.",
           features: ["Face/Palm/Card", "PoE", "Wiegand/OSDP"],
           to: "/products/face-biometric-terminals/zkteco/speedface-v5l",
@@ -81,7 +82,7 @@ export default {
       hero: {
         title: "Suprema Terminals",
         description: "High accuracy devices on BioStar 2 platform.",
-        bg: "/assets/banners/suprema.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Products / Face & Biometric Terminals / Suprema",
       },
       keyBenefits: [
@@ -93,7 +94,7 @@ export default {
         {
           slug: "facestation-f2",
           name: "FaceStation F2",
-          image: "/assets/products/bio/suprema-f2.jpg",
+          image: images.products.idCardPrinters.hero,
           brief: "Fusion face with fingerprint option.",
           features: ["Face/Fingerprint/Card", "OSDP", "PoE"],
           to: "/products/face-biometric-terminals/suprema/facestation-f2",
@@ -109,18 +110,18 @@ export default {
         hero: {
           title: "ZKTeco SpeedFace V5L",
           description: "Face & palm recognition terminal with PoE.",
-          bg: "/assets/products/bio/zkteco-v5l-hero.jpg",
+          bg: images.products.idCardPrinters.hero,
           breadcrumb:
             "Home / Products / Face & Biometric Terminals / ZKTeco / SpeedFace V5L",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/bio/zkteco-v5l.jpg"],
+        gallery: [images.products.idCardPrinters.hero],
         overview:
           "Ideal for lobbies and offices, supporting both attendance and access control.",
         features: ["Face/Palm/Card", "1:3000 face", "Wiegand/OSDP"],
         specs: { Power: "PoE/12V", Interfaces: "TCP/IP, Wiegand, RS485", Temp: "-10 to 45°C" },
         downloads: [{ label: "Datasheet", href: "/downloads/bio/zkteco-v5l.pdf" }],
-        related: [{ href: "/products/face-biometric-terminals/suprema/facestation-f2", name: "Suprema F2", image: "/assets/products/bio/suprema-f2.jpg" }],
+        related: [{ href: "/products/face-biometric-terminals/suprema/facestation-f2", name: "Suprema F2", image: images.products.idCardPrinters.hero }],
       },
     },
     suprema: {
@@ -128,18 +129,18 @@ export default {
         hero: {
           title: "Suprema FaceStation F2",
           description: "Fusion face with fingerprint and liveness detection.",
-          bg: "/assets/products/bio/suprema-f2-hero.jpg",
+          bg: images.products.idCardPrinters.hero,
           breadcrumb:
             "Home / Products / Face & Biometric Terminals / Suprema / FaceStation F2",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/bio/suprema-f2.jpg"],
+        gallery: [images.products.idCardPrinters.hero],
         overview:
           "Enterprise-grade accuracy and security with BioStar 2 platform.",
         features: ["Face/Fingerprint/Card", "OSDP", "PoE"],
         specs: { Templates: "Face 30k", Interface: "TCP/IP, RS-485, Wiegand", Power: "PoE" },
         downloads: [{ label: "Datasheet", href: "/downloads/bio/suprema-f2.pdf" }],
-        related: [{ href: "/products/face-biometric-terminals/zkteco/speedface-v5l", name: "ZKTeco V5L", image: "/assets/products/bio/zkteco-v5l.jpg" }],
+        related: [{ href: "/products/face-biometric-terminals/zkteco/speedface-v5l", name: "ZKTeco V5L", image: images.products.idCardPrinters.hero }],
       },
     },
   },

@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   CircuitBoard,
   Fingerprint,
@@ -16,7 +17,7 @@ export default {
       title: "Adaptive Access Control",
       description:
         "Control entry across doors, gates, elevators, and data centres with unified policies and real-time visibility.",
-      bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+      bg: images.home.tech.three,
       breadcrumb: "Home / Solutions / Access Control System",
       cta: { label: "Schedule Assessment", to: "/contact" },
     },
@@ -47,8 +48,8 @@ export default {
       {
         slug: "pro-series",
         name: "Pro Series",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-181098768-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.home.tech.three,
         blurb: "Mid-market controllers with wired and wireless reader support.",
         highlights: [
           "4/8 door controllers",
@@ -61,8 +62,8 @@ export default {
       {
         slug: "enterprise-series",
         name: "Enterprise Series",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-181098768-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.home.tech.three,
         blurb: "Tier-1 platform with global scalability, high availability, and compliance modules.",
         highlights: [
           "Geo-redundant architecture",
@@ -79,7 +80,7 @@ export default {
       hero: {
         title: "Pro Access Suite",
         description: "Scalable access control for multi-site deployments.",
-        bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+        bg: images.home.tech.three,
         breadcrumb: "Home / Solutions / Access Control System / Pro Series",
         cta: { label: "View Packages", to: "/contact" },
       },
@@ -92,7 +93,7 @@ export default {
         {
           slug: "starter",
           name: "Starter Bundle",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "4-door controller, readers, and centralized software for HQ.",
           features: [
             "4-door PoE controller",
@@ -104,7 +105,7 @@ export default {
         {
           slug: "advanced",
           name: "Advanced Bundle",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Add elevator control, mobile credentials, and SOC alerts.",
           features: [
             "Elevator integration",
@@ -119,7 +120,7 @@ export default {
       hero: {
         title: "Enterprise Access Platform",
         description: "Zero-trust access for critical infrastructure and global enterprises.",
-        bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+        bg: images.home.tech.three,
         breadcrumb: "Home / Solutions / Access Control System / Enterprise Series",
       },
       keyBenefits: [
@@ -131,7 +132,7 @@ export default {
         {
           slug: "global",
           name: "Global Tier",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Geo-redundant servers with 24/7 SOC monitoring.",
           features: [
             "Active-active servers",
@@ -144,7 +145,7 @@ export default {
         {
           slug: "compliance",
           name: "Compliance Tier",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Audit trails, badge lifecycle automation, and risk scoring.",
           features: [
             "Badge lifecycle",
@@ -163,11 +164,11 @@ export default {
         hero: {
           title: "Starter Bundle — Pro Series",
           description: "Kick-start access control for HQ with PoE controllers and secure readers.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Access Control System / Pro Series / Starter",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Includes a 4-door PoE controller, two-factor readers, and management software for main office deployments.",
         features: [
@@ -187,7 +188,7 @@ export default {
           {
             href: "/softwares/access-control-system/pro-series/advanced",
             name: "Advanced Bundle",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -195,11 +196,11 @@ export default {
         hero: {
           title: "Advanced Bundle — Pro Series",
           description: "Add elevator control, mobile credentials, and alarm automation.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Access Control System / Pro Series / Advanced",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Enhance your deployment with elevator IO boards, mobile ID provisioning, and SOC-ready alerts.",
         features: [
@@ -219,7 +220,7 @@ export default {
           {
             href: "/softwares/access-control-system/enterprise-series/global",
             name: "Global Tier",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -229,11 +230,11 @@ export default {
         hero: {
           title: "Global Tier — Enterprise Platform",
           description: "Geo-redundant servers with 24/7 SOC coverage for critical facilities.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Access Control System / Enterprise Series / Global",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Deploy active-active controllers, multi-region redundancy, and continuous SOC monitoring for mission critical access.",
         features: [
@@ -253,7 +254,7 @@ export default {
           {
             href: "/softwares/access-control-system/enterprise-series/compliance",
             name: "Compliance Tier",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -261,11 +262,11 @@ export default {
         hero: {
           title: "Compliance Tier — Enterprise Platform",
           description: "Auditable badge lifecycle automation with risk scoring and reporting.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Access Control System / Enterprise Series / Compliance",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Automate badge issuance, renewals, and deprovisioning with full audit trails and risk analytics.",
         features: [
@@ -285,7 +286,7 @@ export default {
           {
             href: "/softwares/access-control-system/enterprise-series/global",
             name: "Global Tier",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },

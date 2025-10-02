@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Cloud,
   CloudCog,
@@ -17,7 +18,7 @@ export default {
       title: "Cloud Transformation Services",
       description:
         "Design, migrate, and optimize workloads across private, public, and hybrid cloud platforms with confidence.",
-      bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+      bg: images.products.hero,
       breadcrumb: "Home / Solutions / Cloud Solutions",
       cta: { label: "Start Your Journey", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "migration-suite",
         name: "Migration Suite",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Assessment and migration services for workloads moving to cloud.",
         highlights: [
           "Discovery & assessment",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "managed-cloud",
         name: "Managed Cloud",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Operational excellence with SRE, FinOps, and security operations.",
         highlights: [
           "24/7 monitoring",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Cloud Migration Suite",
         description: "Assessment-driven migrations with minimal downtime.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / Cloud Solutions / Migration Suite",
         cta: { label: "View Stages", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "assessment",
           name: "Assessment Phase",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Discovery workshops, TCO, and migration roadmap.",
           features: [
             "Workload inventory",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "migration",
           name: "Migration Execution",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Factory approach with cutover orchestration and validation.",
           features: [
             "Pilot migrations",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Managed Cloud Services",
         description: "SRE-driven operations, FinOps, and continuous optimization.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / Cloud Solutions / Managed Cloud",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "ops-essentials",
           name: "Ops Essentials",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "24/7 monitoring, patching, and incident response for workloads.",
           features: [
             "24/7 monitoring",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "ops-plus",
           name: "Ops Plus",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Adds FinOps governance, automation, and compliance reports.",
           features: [
             "FinOps governance",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Assessment Phase",
           description: "Discover workloads, assess readiness, and define migration roadmap.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Cloud Solutions / Migration Suite / Assessment",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Workshops, discovery tooling, and TCO analysis to build a phased migration plan.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/cloud-solutions/migration-suite/migration",
             name: "Migration Execution",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Migration Execution",
           description: "Factory-driven migration with orchestrated cutovers and validation.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Cloud Solutions / Migration Suite / Migration",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Pilot then scale migrations across apps, databases, and VMs with orchestrated cutovers and knowledge transfer.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/cloud-solutions/migration-suite/assessment",
             name: "Assessment Phase",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Ops Essentials",
           description: "24/7 monitoring, incident response, and patching for critical workloads.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Cloud Solutions / Managed Cloud / Ops Essentials",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Baseline managed services covering monitoring, incident response, and routine patching across environments.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/cloud-solutions/managed-cloud/ops-plus",
             name: "Ops Plus",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Ops Plus",
           description: "FinOps governance, automation, and compliance reporting layered atop managed services.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Cloud Solutions / Managed Cloud / Ops Plus",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Extend essentials with cost governance, automation pipelines, and compliance reporting.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/cloud-solutions/managed-cloud/ops-essentials",
             name: "Ops Essentials",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },

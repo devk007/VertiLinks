@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Cable,
   Cog,
@@ -17,7 +18,7 @@ export default {
       title: "Structured Cabling & Infrastructure",
       description:
         "Design and deploy reliable copper and fiber infrastructure with certified installers and long-term warranties.",
-      bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+      bg: images.home.tech.three,
       breadcrumb: "Home / Solutions / Structured Cabling Solution",
       cta: { label: "Get Site Survey", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "fast-track",
         name: "Fast Track",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-181098768-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.home.tech.three,
         blurb: "Quick rollout for SME offices and retail outlets.",
         highlights: [
           "Cat6 copper",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "enterprise-grid",
         name: "Enterprise Grid",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-181098768-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.home.tech.three,
         blurb: "Campus-grade infrastructure with containment, fiber backbone, and documentation.",
         highlights: [
           "Fiber backbone",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Fast Track Cabling",
         description: "Rapid deployment for growing offices with minimal disruption.",
-        bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+        bg: images.home.tech.three,
         breadcrumb: "Home / Solutions / Structured Cabling Solution / Fast Track",
         cta: { label: "View Packages", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "office-32",
           name: "Office 32 Nodes",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Up to 32 network points with rack, patch panels, and testing.",
           features: [
             "Cat6 cabling",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "retail-64",
           name: "Retail 64 Nodes",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "64 points with containment, CCTV drops, and Wi-Fi ready design.",
           features: [
             "Cat6A cabling",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Enterprise Cabling Grid",
         description: "Campus-wide copper & fiber backbone with lifecycle services.",
-        bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+        bg: images.home.tech.three,
         breadcrumb: "Home / Solutions / Structured Cabling Solution / Enterprise Grid",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "campus-fiber",
           name: "Campus Fiber Backbone",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Core to building backbone with ODF, splice, and OTDR testing.",
           features: [
             "Single & multi-mode",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "distribution-layer",
           name: "Distribution Layer",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Floor distribution, racks, and containment with labeling.",
           features: [
             "Racks & power",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Office 32 Nodes",
           description: "Cat6 structured cabling for up to 32 workstations with rack and certification.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Structured Cabling Solution / Fast Track / Office 32",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Ideal for fast-growing offices, includes Cat6 terminations, rack, cable management, and Fluke certification.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/structured-cabling-solution/fast-track/retail-64",
             name: "Retail 64 Nodes",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Retail 64 Nodes",
           description: "Enhanced deployment with containment, Wi-Fi ready drops, and CCTV trunks.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Structured Cabling Solution / Fast Track / Retail 64",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Support larger footprints with Cat6A cabling, containment, and additional Wi-Fi/CCTV drops for retail chains.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/structured-cabling-solution/enterprise-grid/campus-fiber",
             name: "Campus Fiber Backbone",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Campus Fiber Backbone",
           description: "Deploy core-to-building fiber with ODF, splicing, and OTDR reports.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Structured Cabling Solution / Enterprise Grid / Campus Fiber",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Engineer resilient fiber backbone with redundant paths, ODF termination, and full test documentation.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/structured-cabling-solution/enterprise-grid/distribution-layer",
             name: "Distribution Layer",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Distribution Layer",
           description: "Floor-level distribution with racks, containment, and labeling.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Structured Cabling Solution / Enterprise Grid / Distribution Layer",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Complete floor distribution build including racks, power, cable management, and documentation.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/structured-cabling-solution/enterprise-grid/campus-fiber",
             name: "Campus Fiber Backbone",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },

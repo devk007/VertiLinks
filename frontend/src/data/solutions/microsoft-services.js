@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Cloud,
   Layers,
@@ -16,7 +17,7 @@ export default {
       title: "Microsoft Cloud & Productivity",
       description:
         "Adopt, customize, and manage Microsoft 365, Azure, and Power Platform with certified experts.",
-      bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+      bg: images.products.hero,
       breadcrumb: "Home / Solutions / Microsoft Services",
       cta: { label: "Engage the Team", to: "/contact" },
     },
@@ -47,8 +48,8 @@ export default {
       {
         slug: "modern-work",
         name: "Modern Work",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Microsoft 365 adoption, Teams enablement, and security hardening.",
         highlights: [
           "Teams voice",
@@ -61,8 +62,8 @@ export default {
       {
         slug: "azure-services",
         name: "Azure Services",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Infrastructure, data, and DevOps on Azure with governance.",
         highlights: [
           "Azure landing zone",
@@ -79,7 +80,7 @@ export default {
       hero: {
         title: "Modern Work Services",
         description: "Enable secure collaboration and productivity on Microsoft 365.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / Microsoft Services / Modern Work",
         cta: { label: "Review Packages", to: "/contact" },
       },
@@ -92,7 +93,7 @@ export default {
         {
           slug: "m365-launch",
           name: "M365 Launch",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Plan, deploy, and train users on Microsoft 365 core workloads.",
           features: [
             "Tenant setup",
@@ -104,7 +105,7 @@ export default {
         {
           slug: "teams-voice",
           name: "Teams Voice",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Enable Teams calling with SBC, survivability, and user training.",
           features: [
             "Direct routing",
@@ -119,7 +120,7 @@ export default {
       hero: {
         title: "Azure Cloud Services",
         description: "Design, migrate, and operate workloads on Azure with governance.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / Microsoft Services / Azure Services",
       },
       keyBenefits: [
@@ -131,7 +132,7 @@ export default {
         {
           slug: "azure-foundation",
           name: "Azure Foundation",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Landing zone, governance, and security baseline for Azure.",
           features: [
             "Landing zone",
@@ -144,7 +145,7 @@ export default {
         {
           slug: "azure-modernization",
           name: "Azure Modernization",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Modernize apps with containers, serverless, and databases.",
           features: [
             "Containerization",
@@ -163,11 +164,11 @@ export default {
         hero: {
           title: "M365 Launch",
           description: "Plan and deploy Microsoft 365 core workloads with adoption workshops.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Microsoft Services / Modern Work / M365 Launch",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Tenant setup, security baselines, and user training to launch Microsoft 365 successfully.",
         features: [
@@ -187,7 +188,7 @@ export default {
           {
             href: "/solutions/microsoft-services/modern-work/teams-voice",
             name: "Teams Voice",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -195,11 +196,11 @@ export default {
         hero: {
           title: "Teams Voice",
           description: "Enable Teams calling with SBC integration, survivability, and user training.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Microsoft Services / Modern Work / Teams Voice",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Configure direct routing, SBC, and user training for Teams telephony rollouts.",
         features: [
@@ -219,7 +220,7 @@ export default {
           {
             href: "/solutions/microsoft-services/modern-work/m365-launch",
             name: "M365 Launch",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -229,11 +230,11 @@ export default {
         hero: {
           title: "Azure Foundation",
           description: "Establish an Azure landing zone with governance and monitoring.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Microsoft Services / Azure Services / Azure Foundation",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Create a production-ready landing zone including identity, networking, policy, and monitoring.",
         features: [
@@ -253,7 +254,7 @@ export default {
           {
             href: "/solutions/microsoft-services/azure-services/azure-modernization",
             name: "Azure Modernization",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -261,11 +262,11 @@ export default {
         hero: {
           title: "Azure Modernization",
           description: "Modernize apps with containers, serverless, and managed databases.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / Microsoft Services / Azure Services / Azure Modernization",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Refactor and replatform workloads using containers, serverless, and Azure data services.",
         features: [
@@ -285,7 +286,7 @@ export default {
           {
             href: "/solutions/microsoft-services/azure-services/azure-foundation",
             name: "Azure Foundation",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },

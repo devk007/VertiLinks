@@ -6,9 +6,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import WhyVertiLinks from "../../components/WhyVertiLinks";
 import ScheduleCTA from "../../components/ScheduleCTA";
-import PHero from "../../assets/edge2edge-media-x21KgBfOd_4-unsplash.jpg";
-import SHero from "../../assets/istockphoto-181098768-1024x1024.jpg";
-import SWHero from "../../assets/premium_photo-1661877737564-3dfd7282efcb.avif";
+import images from "../../data/images";
 
 /**
  * Level-0: Tiles of categories (e.g., 9 product categories or solution categories)
@@ -30,7 +28,7 @@ export default function CatalogIndex({ data, kind = "product" }) {
     const map = {
       product: {
         basePath: "products",
-        heroBg: PHero,
+        heroBg: images.products.hero,
         heroTitle: "Our Products",
         heroDescription:
           "Vertilinks offers a cutting edge range of industrial and commercial security products that will help to safeguard your business and facilities. Most of the times the companies get confused in deciding whether to invest in a branded or local security system, but we are here to help you in making things easier.",
@@ -41,7 +39,7 @@ export default function CatalogIndex({ data, kind = "product" }) {
       },
       solution: {
         basePath: "solutions",
-        heroBg: SHero,
+        heroBg: images.home.tech.three,
         heroTitle: "Our Solutions",
         heroDescription:
           "At VertiLinks, we develop powerful software platforms that help organizations streamline their processes and improve decision-making. Whether it’s managing employees, engaging customers, or driving growth with ERP and custom applications, our solutions are tailored to meet your business goals.",
@@ -52,7 +50,7 @@ export default function CatalogIndex({ data, kind = "product" }) {
       },
       software: {
         basePath: "softwares",
-        heroBg: SWHero,
+        heroBg: images.home.tech.four,
         heroTitle: "Software Platforms",
         heroDescription:
           "From attendance to ERP, VertiLinks delivers platforms that connect people, processes, and compliance in one command center.",

@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   ClipboardCheck,
   Headset,
@@ -15,7 +16,7 @@ export default {
       title: "Managed IT Support & AMC",
       description:
         "Keep your infrastructure healthy with proactive maintenance, helpdesk, and on-site support plans.",
-      bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+      bg: images.products.hero,
       breadcrumb: "Home / Solutions / IT Support and AMC",
       cta: { label: "Choose a Plan", to: "/contact" },
     },
@@ -46,8 +47,8 @@ export default {
       {
         slug: "support-care",
         name: "Support Care",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "SMB-focused AMC with quarterly health checks and remote support.",
         highlights: [
           "Remote support",
@@ -60,8 +61,8 @@ export default {
       {
         slug: "enterprise-care",
         name: "Enterprise Care",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Dedicated team, on-site engineers, and 24/7 monitoring for enterprises.",
         highlights: [
           "Dedicated engineer",
@@ -78,7 +79,7 @@ export default {
       hero: {
         title: "Support Care AMC",
         description: "Affordable managed services plan for growing businesses.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / IT Support and AMC / Support Care",
         cta: { label: "See Plans", to: "/contact" },
       },
@@ -91,7 +92,7 @@ export default {
         {
           slug: "basic-amc",
           name: "Basic AMC",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Covers up to 25 endpoints with remote helpdesk and quarterly visits.",
           features: [
             "Remote helpdesk",
@@ -103,7 +104,7 @@ export default {
         {
           slug: "plus-amc",
           name: "Plus AMC",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Adds monthly visits, backup checks, and vendor coordination.",
           features: [
             "Monthly visits",
@@ -118,7 +119,7 @@ export default {
       hero: {
         title: "Enterprise Care AMC",
         description: "Dedicated IT managed services with proactive operations.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / IT Support and AMC / Enterprise Care",
       },
       keyBenefits: [
@@ -130,7 +131,7 @@ export default {
         {
           slug: "enterprise-standard",
           name: "Enterprise Standard",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Core managed services with 8x5 onsite and 24/7 remote support.",
           features: [
             "8x5 onsite",
@@ -143,7 +144,7 @@ export default {
         {
           slug: "enterprise-premium",
           name: "Enterprise Premium",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Full coverage with 24/7 onsite, DR drills, and compliance reporting.",
           features: [
             "24/7 onsite",
@@ -162,11 +163,11 @@ export default {
         hero: {
           title: "Basic AMC",
           description: "Remote helpdesk and quarterly onsite visits for up to 25 endpoints.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / IT Support and AMC / Support Care / Basic AMC",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Keep core systems healthy with unlimited remote support, quarterly preventive maintenance, and security updates.",
         features: [
@@ -186,7 +187,7 @@ export default {
           {
             href: "/solutions/it-support-amc/support-care/plus-amc",
             name: "Plus AMC",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -194,11 +195,11 @@ export default {
         hero: {
           title: "Plus AMC",
           description: "Monthly visits, backup checks, and vendor coordination for growing offices.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / IT Support and AMC / Support Care / Plus AMC",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Add monthly onsite visits, backup verification, and vendor coordination for more demanding environments.",
         features: [
@@ -218,7 +219,7 @@ export default {
           {
             href: "/solutions/it-support-amc/enterprise-care/enterprise-standard",
             name: "Enterprise Standard",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -228,11 +229,11 @@ export default {
         hero: {
           title: "Enterprise Standard",
           description: "8x5 onsite coverage with 24/7 remote response and monthly service reviews.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / IT Support and AMC / Enterprise Care / Enterprise Standard",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Resident engineer support during business hours backed by 24/7 remote NOC and monthly service reviews.",
         features: [
@@ -252,7 +253,7 @@ export default {
           {
             href: "/solutions/it-support-amc/enterprise-care/enterprise-premium",
             name: "Enterprise Premium",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -260,11 +261,11 @@ export default {
         hero: {
           title: "Enterprise Premium",
           description: "24/7 onsite coverage, DR drills, and compliance reporting for regulated industries.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / IT Support and AMC / Enterprise Care / Enterprise Premium",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Full coverage managed services including 24/7 onsite engineers, scheduled DR drills, and compliance reporting.",
         features: [
@@ -284,7 +285,7 @@ export default {
           {
             href: "/solutions/it-support-amc/enterprise-care/enterprise-standard",
             name: "Enterprise Standard",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },

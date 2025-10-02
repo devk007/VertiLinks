@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Activity,
   AlarmSmoke,
@@ -17,7 +18,7 @@ export default {
       title: "Next-Gen Firewall & Secure Gateway",
       description:
         "Protect your perimeter, branch, and cloud workloads with unified threat management and secure access.",
-      bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+      bg: images.home.tech.three,
       breadcrumb: "Home / Solutions / Firewall & Gateway System",
       cta: { label: "Book Security Audit", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "utm-series",
         name: "UTM Series",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-181098768-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.home.tech.three,
         blurb: "Unified threat management for SMBs and distributed branches.",
         highlights: [
           "UTM services",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "nextgen-series",
         name: "NextGen Series",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-181098768-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.home.tech.three,
         blurb: "High-performance NGFW with zero trust and SOC integrations.",
         highlights: [
           "Zero trust access",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "UTM Firewall Suite",
         description: "All-in-one security for SMEs and distributed networks.",
-        bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+        bg: images.home.tech.three,
         breadcrumb: "Home / Solutions / Firewall & Gateway System / UTM Series",
         cta: { label: "See Appliances", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "utm-100",
           name: "UTM 100",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Suitable for 50-100 users with UTM subscription bundle.",
           features: [
             "Up to 1 Gbps NGFW",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "utm-300",
           name: "UTM 300",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "300-user appliance with dual WAN and SD-WAN templates.",
           features: [
             "Dual WAN",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "NextGen Firewall Platform",
         description: "Enterprise NGFW with threat hunting and automation integrations.",
-        bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+        bg: images.home.tech.three,
         breadcrumb: "Home / Solutions / Firewall & Gateway System / NextGen Series",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "ngfw-700",
           name: "NGFW 700",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Up to 5 Gbps NGFW with high availability bundle.",
           features: [
             "5 Gbps throughput",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "ngfw-1200",
           name: "NGFW 1200",
-          image: "/assets/istockphoto-181098768-1024x1024.jpg",
+          image: images.home.tech.three,
           brief: "Data centre model with chassis options and advanced analytics.",
           features: [
             "Chassis option",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "UTM 100",
           description: "Unified threat management appliance for 50-100 users.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Firewall & Gateway System / UTM Series / UTM 100",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Protect small offices with NGFW, web filtering, anti-malware, and cloud management in one appliance.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/firewall-gateway-system/utm-series/utm-300",
             name: "UTM 300",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "UTM 300",
           description: "Higher throughput appliance with dual WAN and SD-WAN templates.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Firewall & Gateway System / UTM Series / UTM 300",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Secure distributed branches with dual WAN, SD-WAN templates, and centralized logging.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/firewall-gateway-system/nextgen-series/ngfw-700",
             name: "NGFW 700",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "NGFW 700",
           description: "Enterprise NGFW with inline sandboxing and high availability bundle.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Firewall & Gateway System / NextGen Series / NGFW 700",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Secure mid-size datacenters with 5 Gbps throughput, HA pair, and threat intel feeds.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/firewall-gateway-system/nextgen-series/ngfw-1200",
             name: "NGFW 1200",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "NGFW 1200",
           description: "Chassis-based NGFW with automation APIs and analytics for large enterprises.",
-          bg: "/assets/istockphoto-181098768-1024x1024.jpg",
+          bg: images.home.tech.three,
           breadcrumb: "Home / Solutions / Firewall & Gateway System / NextGen Series / NGFW 1200",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-181098768-1024x1024.jpg"],
+        gallery: [images.home.tech.three],
         overview:
           "Deliver carrier-grade protection with chassis scalability, SOAR integrations, and analytics.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/firewall-gateway-system/nextgen-series/ngfw-700",
             name: "NGFW 700",
-            image: "/assets/istockphoto-181098768-1024x1024.jpg",
+            image: images.home.tech.three,
           },
         ],
       },

@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Camera,
   HardDriveDownload,
@@ -17,7 +18,7 @@ export default {
       title: "Always-On Surveillance",
       description:
         "Deploy NDAA-compliant cameras, VMS, and analytics that keep campuses, warehouses, and smart cities protected.",
-      bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+      bg: images.products.hero,
       breadcrumb: "Home / Solutions / CCTV Security & Surveillance",
       cta: { label: "Request Site Survey", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "smart-guard",
         name: "Smart Guard",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "End-to-end IP surveillance for SME and campus deployments.",
         highlights: [
           "IP cameras & NVR",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "command-vision",
         name: "Command Vision",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Mission-critical VMS with analytics, video walls, and integrations.",
         highlights: [
           "Video wall",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Smart Guard Surveillance",
         description: "Comprehensive CCTV kit with AI-assisted monitoring.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / CCTV Security & Surveillance / Smart Guard",
         cta: { label: "See Bundles", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "retail-kit",
           name: "Retail Kit",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "8-camera package with PoE switch, NVR, and mobile app.",
           features: [
             "8x PoE cameras",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "campus-kit",
           name: "Campus Kit",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "32-camera setup with analytics and centralized management.",
           features: [
             "32x AI cameras",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Command Vision VMS",
         description: "Large-scale video platform with analytics & video walls.",
-        bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Solutions / CCTV Security & Surveillance / Command Vision",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "control-room",
           name: "Control Room Bundle",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Video wall, operator consoles, and VMS enterprise license.",
           features: [
             "Video wall processors",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "analytics-pack",
           name: "Analytics Pack",
-          image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          image: images.products.hero,
           brief: "Add AI modules like ANPR, face recognition, and heat mapping.",
           features: [
             "ANPR",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Retail Kit — Smart Guard",
           description: "8-camera PoE surveillance kit with mobile monitoring.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / CCTV Security & Surveillance / Smart Guard / Retail Kit",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Designed for retail floors and clinics, the Retail Kit bundles 8 PoE cameras, NVR storage, and secure mobile access.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/softwares/cctv-security-surveillance/smart-guard/campus-kit",
             name: "Campus Kit",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Campus Kit — Smart Guard",
           description: "32-camera AI-enabled setup for campuses and warehouses.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / CCTV Security & Surveillance / Smart Guard / Campus Kit",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Cover large sites with AI cameras, ANPR integration, and centralized VMS for control room operations.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/softwares/cctv-security-surveillance/command-vision/control-room",
             name: "Control Room Bundle",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Control Room Bundle — Command Vision",
           description: "Operator consoles, video wall processors, and enterprise VMS license.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / CCTV Security & Surveillance / Command Vision / Control Room",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Build a mission control room with multi-operator consoles, processors, and redundant VMS servers.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/softwares/cctv-security-surveillance/command-vision/analytics-pack",
             name: "Analytics Pack",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Analytics Pack — Command Vision",
           description: "Computer vision add-ons for ANPR, face recognition, and heat mapping.",
-          bg: "/assets/istockphoto-1081869356-1024x1024.jpg",
+          bg: images.products.hero,
           breadcrumb: "Home / Solutions / CCTV Security & Surveillance / Command Vision / Analytics Pack",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/istockphoto-1081869356-1024x1024.jpg"],
+        gallery: [images.products.hero],
         overview:
           "Activate AI modules that detect license plates, faces, and crowd density directly within Command Vision VMS.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/softwares/cctv-security-surveillance/command-vision/control-room",
             name: "Control Room Bundle",
-            image: "/assets/istockphoto-1081869356-1024x1024.jpg",
+            image: images.products.hero,
           },
         ],
       },

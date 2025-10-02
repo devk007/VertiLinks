@@ -1,3 +1,4 @@
+import images from '../images';
 import {Printer} from 'lucide-react';
 
 export default {
@@ -9,7 +10,7 @@ export default {
       title: "Office Printers & Document Scanners",
       description:
         "Reliable mono/color lasers, MFPs and high-speed document scanners with fleet management.",
-      bg: "/assets/heroes/hero-printers.jpg",
+      bg: images.products.hero,
       breadcrumb: "Home / Products / Printers & Scanners",
       cta: { label: "Get In Touch", to: "/contact" },
     },
@@ -30,23 +31,23 @@ export default {
       {
         slug: "hp",
         name: "HP LaserJet / ScanJet",
-        logo: "/assets/brands/hp.svg",
-        banner: "/assets/banners/hp-printers.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Trusted LaserJet MFPs and ScanJet high-speed scanners.",
         highlights: ["JetIntelligence", "Wolf Security", "NBD support"],
         industries: ["Corporate", "Healthcare", "Education"],
-        preview: [{ name: "LaserJet Pro M428", image: "/assets/products/print/hp-m428.jpg" }],
+        preview: [{ name: "LaserJet Pro M428", image: images.products.hero }],
         to: "/products/printers-and-scanners/hp",
       },
       {
         slug: "canon",
         name: "Canon imageRUNNER / DR",
-        logo: "/assets/brands/canon.svg",
-        banner: "/assets/banners/canon-printers.jpg",
+        logo: images.products.hero,
+        banner: images.products.hero,
         blurb: "Robust A3 MFPs and DR series production scanners.",
         highlights: ["MEAP platform", "Booklet finishers", "CaptureOnTouch"],
         industries: ["Govt", "Print bureaus"],
-        preview: [{ name: "imageRUNNER 2630", image: "/assets/products/print/canon-ir-2630.jpg" }],
+        preview: [{ name: "imageRUNNER 2630", image: images.products.hero }],
         to: "/products/printers-and-scanners/canon",
       },
     ],
@@ -57,7 +58,7 @@ export default {
       hero: {
         title: "HP LaserJet & ScanJet",
         description: "Secure, efficient printing and capture.",
-        bg: "/assets/banners/hp-printers.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Products / Printers & Scanners / HP",
         cta: { label: "See Models", to: "/contact" },
       },
@@ -70,7 +71,7 @@ export default {
         {
           slug: "laserjet-pro-m428",
           name: "LaserJet Pro M428fdw",
-          image: "/assets/products/print/hp-m428.jpg",
+          image: images.products.hero,
           brief: "Mono A4 MFP with strong security.",
           features: ["38 ppm", "Duplex/ADF", "Wi-Fi"],
           to: "/products/printers-and-scanners/hp/laserjet-pro-m428",
@@ -78,7 +79,7 @@ export default {
         {
           slug: "scanjet-pro-4500",
           name: "ScanJet Pro 4500",
-          image: "/assets/products/print/hp-scanjet-4500.jpg",
+          image: images.products.hero,
           brief: "High-speed duplex document scanner.",
           features: ["ADF", "OCR", "Scan to cloud"],
           to: "/products/printers-and-scanners/hp/scanjet-pro-4500",
@@ -90,7 +91,7 @@ export default {
       hero: {
         title: "Canon imageRUNNER & DR",
         description: "A3 MFPs and production scanners for heavy use.",
-        bg: "/assets/banners/canon-printers.jpg",
+        bg: images.products.hero,
         breadcrumb: "Home / Products / Printers & Scanners / Canon",
       },
       keyBenefits: [
@@ -102,7 +103,7 @@ export default {
         {
           slug: "imagerunner-2630",
           name: "imageRUNNER 2630",
-          image: "/assets/products/print/canon-ir-2630.jpg",
+          image: images.products.hero,
           brief: "A3 mono MFP for workgroups.",
           features: ["30 ppm", "Duplex", "Finisher options"],
           to: "/products/printers-and-scanners/canon/imagerunner-2630",
@@ -118,28 +119,28 @@ export default {
         hero: {
           title: "HP LaserJet Pro M428fdw",
           description: "Mono A4 MFP with strong security.",
-          bg: "/assets/products/print/hp-m428-hero.jpg",
+          bg: images.products.hero,
           breadcrumb:
             "Home / Products / Printers & Scanners / HP / LaserJet Pro M428",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/print/hp-m428.jpg"],
+        gallery: [images.products.hero],
         overview: "Fast, secure and easy to manage for small teams.",
         features: ["38 ppm", "Duplex & ADF", "Secure print"],
         specs: { Type: "A4 Mono MFP", DutyCycle: "80k/month", Connectivity: "USB, Ethernet, Wi-Fi" },
         downloads: [{ label: "Datasheet", href: "/downloads/print/hp-m428.pdf" }],
-        related: [{ href: "/products/printers-and-scanners/canon/imagerunner-2630", name: "Canon iR 2630", image: "/assets/products/print/canon-ir-2630.jpg" }],
+        related: [{ href: "/products/printers-and-scanners/canon/imagerunner-2630", name: "Canon iR 2630", image: images.products.hero }],
       },
       "scanjet-pro-4500": {
         hero: {
           title: "HP ScanJet Pro 4500",
           description: "Duplex document scanner with OCR.",
-          bg: "/assets/products/print/hp-scanjet-hero.jpg",
+          bg: images.products.hero,
           breadcrumb:
             "Home / Products / Printers & Scanners / HP / ScanJet Pro 4500",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/print/hp-scanjet-4500.jpg"],
+        gallery: [images.products.hero],
         overview: "Quick capture to searchable PDFs and cloud.",
         features: ["ADF 50 sheets", "Duplex", "OCR"],
         specs: { Speed: "45 ppm", DPI: "600", Interface: "USB/Ethernet" },
@@ -152,17 +153,17 @@ export default {
         hero: {
           title: "Canon imageRUNNER 2630",
           description: "A3 mono MFP for workgroups.",
-          bg: "/assets/products/print/canon-ir-hero.jpg",
+          bg: images.products.hero,
           breadcrumb:
             "Home / Products / Printers & Scanners / Canon / imageRUNNER 2630",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/products/print/canon-ir-2630.jpg"],
+        gallery: [images.products.hero],
         overview: "Dependable printing with optional finisher.",
         features: ["30 ppm", "Duplex", "Large toner"],
         specs: { Type: "A3 Mono MFP", Speed: "30 ppm", Connectivity: "USB/Ethernet" },
         downloads: [{ label: "Datasheet", href: "/downloads/print/canon-ir-2630.pdf" }],
-        related: [{ href: "/products/printers-and-scanners/hp/laserjet-pro-m428", name: "HP M428fdw", image: "/assets/products/print/hp-m428.jpg" }],
+        related: [{ href: "/products/printers-and-scanners/hp/laserjet-pro-m428", name: "HP M428fdw", image: images.products.hero }],
       },
     },
   },

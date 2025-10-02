@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   Headset,
   Network,
@@ -16,7 +17,7 @@ export default {
       title: "IP PBX & Unified Communication",
       description:
         "Modernize telephony with IP PBX, contact centre features, and seamless collaboration across locations.",
-      bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+      bg: images.home.about,
       breadcrumb: "Home / Solutions / PABX Solution",
       cta: { label: "Talk to a UC Expert", to: "/contact" },
     },
@@ -47,8 +48,8 @@ export default {
       {
         slug: "business-voice",
         name: "Business Voice",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "SMB IP PBX with auto-attendant, call queues, and recording.",
         highlights: [
           "Digital/analog gateway",
@@ -61,8 +62,8 @@ export default {
       {
         slug: "enterprise-uc",
         name: "Enterprise UC",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "High-availability clusters, contact center, and analytics dashboards.",
         highlights: [
           "HA clusters",
@@ -79,7 +80,7 @@ export default {
       hero: {
         title: "Business Voice PBX",
         description: "Feature-rich IP PBX tailored for SMEs and multi-branch setups.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / PABX Solution / Business Voice",
         cta: { label: "See Plans", to: "/contact" },
       },
@@ -92,7 +93,7 @@ export default {
         {
           slug: "starter-pbx",
           name: "Starter PBX",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Up to 50 extensions with voicemail, IVR, and call recording.",
           features: [
             "50 extensions",
@@ -104,7 +105,7 @@ export default {
         {
           slug: "branch-pbx",
           name: "Branch PBX",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "150 extensions with remote branch connectivity and reporting.",
           features: [
             "150 extensions",
@@ -119,7 +120,7 @@ export default {
       hero: {
         title: "Enterprise UC Platform",
         description: "Carrier-grade voice, contact center, and collaboration suite.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / PABX Solution / Enterprise UC",
       },
       keyBenefits: [
@@ -131,7 +132,7 @@ export default {
         {
           slug: "global-pbx",
           name: "Global PBX",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Clustered PBX with SBC, HA core, and branch survivability.",
           features: [
             "Geo redundancy",
@@ -144,7 +145,7 @@ export default {
         {
           slug: "contact-centre",
           name: "Contact Centre Suite",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Advanced call centre with recording, QA, and analytics dashboards.",
           features: [
             "Quality monitoring",
@@ -163,11 +164,11 @@ export default {
         hero: {
           title: "Starter PBX",
           description: "Up to 50 extensions with auto attendant and call recording.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / PABX Solution / Business Voice / Starter PBX",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Ideal for single-site SMBs, providing auto attendant, voicemail, and call recording out of the box.",
         features: [
@@ -187,7 +188,7 @@ export default {
           {
             href: "/solutions/pabx-solution/business-voice/branch-pbx",
             name: "Branch PBX",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -195,11 +196,11 @@ export default {
         hero: {
           title: "Branch PBX",
           description: "Multi-branch connectivity with VPN and wallboard reporting.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / PABX Solution / Business Voice / Branch PBX",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Connect remote branches using secure VPN gateways with centralized reporting and CRM popping.",
         features: [
@@ -219,7 +220,7 @@ export default {
           {
             href: "/solutions/pabx-solution/enterprise-uc/global-pbx",
             name: "Global PBX",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -229,11 +230,11 @@ export default {
         hero: {
           title: "Global PBX",
           description: "Clustered PBX with SBC, HA core, and survivable gateways.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / PABX Solution / Enterprise UC / Global PBX",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Designed for enterprises needing geo-redundant voice with SIP trunk security and branch survivability.",
         features: [
@@ -253,7 +254,7 @@ export default {
           {
             href: "/solutions/pabx-solution/enterprise-uc/contact-centre",
             name: "Contact Centre Suite",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -261,11 +262,11 @@ export default {
         hero: {
           title: "Contact Centre Suite",
           description: "Omni-channel contact centre with QA, analytics, and CRM integration.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / PABX Solution / Enterprise UC / Contact Centre",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Deliver a full contact centre with voice, chat, email, social inboxes, quality assurance, and analytics dashboards.",
         features: [
@@ -285,7 +286,7 @@ export default {
           {
             href: "/solutions/pabx-solution/enterprise-uc/global-pbx",
             name: "Global PBX",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },

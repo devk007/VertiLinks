@@ -7,13 +7,18 @@ import {
   Workflow,
   Building2,
 } from "lucide-react";
-import attendanceHero from "../../assets/premium_photo-1680807988328-7ba28ad24d9f.avif";
-import visitorHero from "../../assets/premium_photo-1661963212517-830bbb7d76fc.avif";
-import canteenHero from "../../assets/premium_photo-1729091229423-96b85c74a815.avif";
-import accessHero from "../../assets/compare-fibre-tiSE_paTt0A-unsplash.jpg";
-import mobileHero from "../../assets/nick-loggie-fRVPzBYcd5A-unsplash.jpg";
-import customHero from "../../assets/premium_photo-1661877737564-3dfd7282efcb.avif";
-import erpHero from "../../assets/edge2edge-media-x21KgBfOd_4-unsplash.jpg";
+
+import images from "../images";
+
+const heroImages = {
+  attendance: images.home.tech.four,
+  visitor: images.home.tech.three,
+  canteen: images.home.hero,
+  access: images.home.tech.two,
+  mobile: images.home.tech.two,
+  custom: images.home.tech.four,
+  erp: images.home.tech.one,
+};
 
 const timeAttendance = {
   slug: "time-attendance-software",
@@ -30,7 +35,7 @@ const timeAttendance = {
       title: "Time Attendance Management",
       description:
         "Centralize attendance from biometric devices, mobile apps, and remote sites with intelligent scheduling and payroll integration.",
-      bg: attendanceHero,
+      bg: heroImages.attendance,
       breadcrumb: "Home / Softwares / Time Attendance",
       cta: { label: "Request Demo", to: "/contact" },
     },
@@ -101,7 +106,7 @@ const visitorManagement = {
       title: "Visitor Management Platform",
       description:
         "Deliver a premium lobby experience while maintaining audit-ready security trails for every visitor, contractor, or guest.",
-      bg: visitorHero,
+      bg: heroImages.visitor,
       breadcrumb: "Home / Softwares / Visitor Management",
       cta: { label: "Schedule a Walkthrough", to: "/contact" },
     },
@@ -171,7 +176,7 @@ const canteenManagement = {
       title: "Canteen & Meal Management",
       description:
         "Digitize meal planning, consumption tracking, and vendor settlements for corporate cafeterias and industrial messes.",
-      bg: canteenHero,
+      bg: heroImages.canteen,
       breadcrumb: "Home / Softwares / Canteen Management",
       cta: { label: "Talk to Our Team", to: "/contact" },
     },
@@ -241,7 +246,7 @@ const accessControl = {
       title: "Access Control Command Center",
       description:
         "Design, deploy, and monitor high-security access policies with instant response to threats and compliance audits.",
-      bg: accessHero,
+      bg: heroImages.access,
       breadcrumb: "Home / Softwares / Access Control",
       cta: { label: "Plan Your Rollout", to: "/contact" },
     },
@@ -311,7 +316,7 @@ const mobileAppDev = {
       title: "Mobile Application Delivery",
       description:
         "From discovery to launch, we craft mobile products that blend premium UX, resilient engineering, and measurable outcomes.",
-      bg: mobileHero,
+      bg: heroImages.mobile,
       breadcrumb: "Home / Softwares / Mobile App Development",
       cta: { label: "Start a Project", to: "/contact" },
     },
@@ -381,7 +386,7 @@ const customAppDev = {
       title: "Custom Application Engineering",
       description:
         "We transform complex processes into robust digital platforms with clear roadmaps, governance, and measurable ROI.",
-      bg: customHero,
+      bg: heroImages.custom,
       breadcrumb: "Home / Softwares / Custom Application Development",
       cta: { label: "Co-create With Us", to: "/contact" },
     },
@@ -451,7 +456,7 @@ const erpSolutions = {
       title: "Enterprise ERP Programs",
       description:
         "Align processes, people, and data across finance, operations, and supply chain with configurable ERP blueprints.",
-      bg: erpHero,
+      bg: heroImages.erp,
       breadcrumb: "Home / Softwares / ERP Solutions",
       cta: { label: "Plan Your ERP Journey", to: "/contact" },
     },

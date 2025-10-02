@@ -2,9 +2,11 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import MegaPanel from "./MegaPanel";
 import navData from "../data/navData";
-import logo from "../assets/x6ioTZ01.svg"
+import images from "../data/images";
 import { Phone, Mail} from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+
+const LOGO_SRC = images.branding.logo;
 
 export default function Navbar({
   durationMs = 320,                           // panel open/close duration
@@ -294,7 +296,7 @@ export default function Navbar({
             <Link to="/">
               <div className="w-30 h-8 -mt-3">
                 <img
-                  src={logo}
+                  src={LOGO_SRC}
                   alt="Logo"
                 />
               </div>
@@ -395,7 +397,7 @@ export default function Navbar({
                 }}
               >
                 <img
-                  src={logo}
+                  src={LOGO_SRC}
                   alt="Logo"
                   className="h-8"
                 />

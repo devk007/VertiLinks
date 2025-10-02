@@ -1,3 +1,4 @@
+import images from '../images';
 import {
   BarChart3,
   Globe,
@@ -17,7 +18,7 @@ export default {
       title: "Search Engine Optimization",
       description:
         "Improve visibility, drive organic traffic, and convert more leads with data-backed SEO strategies.",
-      bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+      bg: images.home.about,
       breadcrumb: "Home / Solutions / SEO Services",
       cta: { label: "Request SEO Audit", to: "/contact" },
     },
@@ -48,8 +49,8 @@ export default {
       {
         slug: "growth-seo",
         name: "Growth SEO",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Comprehensive monthly SEO program for mid-market brands.",
         highlights: [
           "Keyword strategy",
@@ -62,8 +63,8 @@ export default {
       {
         slug: "local-seo",
         name: "Local SEO",
-        logo: "/assets/brands/placeholder.svg",
-        banner: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        logo: images.products.hero,
+        banner: images.home.about,
         blurb: "Hyperlocal visibility for retail, clinics, and F&B chains.",
         highlights: [
           "GMB optimization",
@@ -80,7 +81,7 @@ export default {
       hero: {
         title: "Growth SEO Program",
         description: "Data-driven SEO retainer covering technical, content, and authority.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / SEO Services / Growth SEO",
         cta: { label: "See Deliverables", to: "/contact" },
       },
@@ -93,7 +94,7 @@ export default {
         {
           slug: "starter-plan",
           name: "Starter Plan",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Ideal for emerging brands targeting 10-15 key themes.",
           features: [
             "Keyword strategy",
@@ -105,7 +106,7 @@ export default {
         {
           slug: "scale-plan",
           name: "Scale Plan",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Aggressive growth program with content marketing and outreach.",
           features: [
             "Content production",
@@ -120,7 +121,7 @@ export default {
       hero: {
         title: "Local SEO Program",
         description: "Dominate local search and maps for multi-location businesses.",
-        bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+        bg: images.home.about,
         breadcrumb: "Home / Solutions / SEO Services / Local SEO",
       },
       keyBenefits: [
@@ -132,7 +133,7 @@ export default {
         {
           slug: "single-location",
           name: "Single Location",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Boost visibility for a flagship store or clinic.",
           features: [
             "GBP optimization",
@@ -145,7 +146,7 @@ export default {
         {
           slug: "multi-location",
           name: "Multi Location",
-          image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          image: images.home.about,
           brief: "Manage and scale 10+ locations with centralized reporting.",
           features: [
             "Location pages",
@@ -164,11 +165,11 @@ export default {
         hero: {
           title: "Starter Plan",
           description: "Foundational SEO program covering technical fixes and keyword strategy.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / SEO Services / Growth SEO / Starter Plan",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Target 10-15 key themes with technical clean-up, keyword mapping, and baseline content recommendations.",
         features: [
@@ -188,7 +189,7 @@ export default {
           {
             href: "/solutions/seo-services/growth-seo/scale-plan",
             name: "Scale Plan",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -196,11 +197,11 @@ export default {
         hero: {
           title: "Scale Plan",
           description: "Aggressive SEO growth with content marketing and digital PR outreach.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / SEO Services / Growth SEO / Scale Plan",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Expand into new clusters with ongoing content production, digital PR, and conversion tracking.",
         features: [
@@ -220,7 +221,7 @@ export default {
           {
             href: "/solutions/seo-services/growth-seo/starter-plan",
             name: "Starter Plan",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -230,11 +231,11 @@ export default {
         hero: {
           title: "Single Location",
           description: "Boost visibility for a flagship store or clinic in local search and maps.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / SEO Services / Local SEO / Single Location",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Optimize Google Business Profile, local citations, and localized landing pages for a single location.",
         features: [
@@ -254,7 +255,7 @@ export default {
           {
             href: "/solutions/seo-services/local-seo/multi-location",
             name: "Multi Location",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
@@ -262,11 +263,11 @@ export default {
         hero: {
           title: "Multi Location",
           description: "Manage and scale SEO for 10+ locations with centralized dashboards.",
-          bg: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+          bg: images.home.about,
           breadcrumb: "Home / Solutions / SEO Services / Local SEO / Multi Location",
           cta: { label: "Get In Touch", to: "/contact" },
         },
-        gallery: ["/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"],
+        gallery: [images.home.about],
         overview:
           "Create and manage location landing pages, citation syndication, and call tracking for multi-site brands.",
         features: [
@@ -286,7 +287,7 @@ export default {
           {
             href: "/solutions/seo-services/local-seo/single-location",
             name: "Single Location",
-            image: "/assets/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg",
+            image: images.home.about,
           },
         ],
       },
