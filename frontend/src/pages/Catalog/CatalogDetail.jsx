@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Navigate } from "react-router-dom";
+import { useParams, Navigate, Link } from "react-router-dom";
 import { ChevronRight, Download } from "lucide-react";
 import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
@@ -163,9 +163,9 @@ export default function CatalogDetail({ data }) {
           </h3>
           <div className="mt-6 flex gap-6 overflow-x-auto pb-2">
             {page.related.map((related) => (
-              <a
-                key={related.href}
-                href={related.href}
+              <Link
+                key={related.href || related.to}
+                to={related.href || related.to || '#'}
                 className="group flex w-56 flex-col items-center rounded-3xl border border-slate-200 bg-white px-4 py-6 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
               >
                 <div className="flex h-32 w-full items-center justify-center">
@@ -179,7 +179,7 @@ export default function CatalogDetail({ data }) {
                 <div className="mt-4 text-sm font-semibold text-slate-800 group-hover:text-sky-700">
                   {related.name}
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
