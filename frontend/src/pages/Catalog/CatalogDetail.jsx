@@ -22,6 +22,8 @@ export default function CatalogDetail({ data }) {
   const detailTitle = page.hero?.title || slug;
   const categoryTitle = cat?.title || level2;
 
+  const relatedItems = (page.related || []).slice(0, 4);
+
   return (
     <>
       <Navbar />
@@ -156,13 +158,13 @@ export default function CatalogDetail({ data }) {
         </section>
       ) : null}
 
-      {page.related?.length ? (
+      {relatedItems.length ? (
         <section className="mx-auto max-w-6xl px-6 pb-20 md:px-8">
           <h3 className="text-2xl font-semibold text-slate-900 md:text-3xl">
             Related Products
           </h3>
           <div className="mt-6 flex gap-6 overflow-x-auto pb-2">
-            {page.related.map((related) => (
+            {relatedItems.map((related) => (
               <Link
                 key={related.href || related.to}
                 to={related.href || related.to || '#'}
