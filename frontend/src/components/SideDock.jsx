@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import dockData from "../data/sideDockData";
 
 /**
@@ -231,7 +232,7 @@ export default function SideDock({
         style={panelStyle}
         className="
           fixed w-[min(1100px,78vw)]
-          rounded-3xl bg-white shadow-2xl border border-gray-200 overflow-hidden
+          rounded-3xl bg-white shadow-2xl border border-gray-200 overflow-hidden max-h-[90vh]
         "
         onMouseEnter={handleEnterPanel}
         onMouseLeave={handleLeavePanel}
@@ -245,20 +246,45 @@ export default function SideDock({
               </h3>
             </header>
 
-            <div className="px-6 md:px-8 pb-8 pt-4 overflow-y-auto h-[calc(100%-72px)]">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-10">
-                {current.panel.products.map((p) => (
-                  <article key={p.slug} className="text-center">
-                    <img
-                      src={p.image}
-                      alt={p.title}
-                      className="w-40 h-28 object-contain mx-auto"
-                      loading="lazy"
-                    />
-                    <h4 className="mt-4 font-extrabold tracking-tight">{p.code}</h4>
-                    <p className="text-gray-700 text-lg leading-snug">{p.title}</p>
-                  </article>
-                ))}
+            <div className="px-6 md:px-8 pb-6 pt-3 overflow-y-auto h-[calc(100%-72px)]">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-6">
+                {current.panel.products.map((p) => {
+                  const key = p.slug || p.code || p.title;
+                  const cardClass =
+                    "group block rounded-xl border border-slate-200/70 px-3 py-3 text-center transition hover:border-sky-300 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400";
+                  const content = (
+                    <>
+                      <img
+                        src={p.image}
+                        alt={p.title}
+                        className="w-24 h-20 object-contain mx-auto"
+                        loading="lazy"
+                      />
+                      {p.code ? (
+                        <h4 className="mt-3 text-base font-semibold tracking-tight text-slate-800 group-hover:text-sky-700">
+                          {p.code}
+                        </h4>
+                      ) : null}
+                      <p className="text-gray-600 text-sm leading-snug mt-1">
+                        {p.title}
+                      </p>
+                    </>
+                  );
+
+                  if (p.href) {
+                    return (
+                      <Link key={key} to={p.href} className={cardClass}>
+                        {content}
+                      </Link>
+                    );
+                  }
+
+                  return (
+                    <article key={key} className={cardClass}>
+                      {content}
+                    </article>
+                  );
+                })}
               </div>
             </div>
           </section>
