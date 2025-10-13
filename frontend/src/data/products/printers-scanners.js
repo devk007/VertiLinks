@@ -197,6 +197,12 @@ export default {
           "Modular input trays up to 4,600 sheets",
           "Dual-band wireless and Gigabit Ethernet",
         ],
+        videoSpotlight: {
+          videoUrl: "https://www.youtube.com/watch?v=r2JRu4L8YUU",
+          title: "LaserJet Enterprise Security Demo",
+          description:
+            "HP outlines Wolf Security hardening, self-healing firmware, and fleet controls for the LaserJet Enterprise line.",
+        },
         specs: {
           Formats: "A4/A3 mono & color",
           DutyCycle: "Up to 300k pages/month",
@@ -227,6 +233,12 @@ export default {
           "Automatic duplex print/scan",
           "HP Instant Ink eligible",
         ],
+        videoSpotlight: {
+          videoUrl: "https://www.youtube.com/watch?v=s-N0Mb2oOig",
+          title: "OfficeJet Pro Smart Workflows",
+          description:
+            "Feature tour covering Smart Tasks automations, mobile printing, and hybrid work readiness for OfficeJet Pro devices.",
+        },
         specs: {
           Formats: "A4 color inkjet",
           DutyCycle: "Up to 30k pages/month",
@@ -257,6 +269,12 @@ export default {
           "Cloud print (Universal Print/Chromebook)",
           "Optional stapler/stacker",
         ],
+        videoSpotlight: {
+          videoUrl: "https://www.youtube.com/watch?v=QcoLO09KxM8",
+          title: "Color LaserJet MFP Highlights",
+          description:
+            "Overview of Color LaserJet Pro and Managed E-series capabilities, from fast duplexing to workflow customization.",
+        },
         specs: {
           Formats: "A4 color laser",
           Paper: "Up to 250-sheet input, 50-sheet ADF",
@@ -319,6 +337,12 @@ export default {
           "Wi-Fi Direct & Canon PRINT app",
           "Auto two-sided printing (select models)",
         ],
+        videoSpotlight: {
+          videoUrl: "https://www.youtube.com/watch?v=STvv_2Mkero",
+          title: "PIXMA G-Series MegaTank Tour",
+          description:
+            "Canon demonstrates MegaTank refilling, hybrid ink quality, and wireless controls for the PIXMA G-Series.",
+        },
         specs: {
           Formats: "A4 photo/office",
           Ink: "Hybrid dye/pigment",
@@ -379,6 +403,12 @@ export default {
           "CaptureOnTouch Pro workflows",
           "Passport and card scanning kits",
         ],
+        videoSpotlight: {
+          videoUrl: "https://www.youtube.com/watch?v=N0bJ2qHw_3o",
+          title: "imageFORMULA Production Scanning",
+          description:
+            "Walkthrough of imageFORMULA scanners handling mixed batches, barcode routing, and CaptureOnTouch automation.",
+        },
         specs: {
           Feeders: "60–100 sheet ADF",
           DutyCycle: "Up to 10,000 pages/day",
@@ -409,6 +439,12 @@ export default {
           "uniFLOW Online & Azure connectors",
           "Booklet, staple, and hole-punch finishers",
         ],
+        videoSpotlight: {
+          videoUrl: "https://www.youtube.com/watch?v=Zoj8GWvk9Qc",
+          title: "imageRUNNER ADVANCE DX Overview",
+          description:
+            "Canon showcases imageRUNNER ADVANCE DX cloud connectors, security, and finishing modules for A3 workgroups.",
+        },
         specs: {
           Formats: "A3/A4 mono & color",
           Toner: "Canon C-EXV series",

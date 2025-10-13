@@ -383,6 +383,12 @@ const hidModelPages = {
       'Accepted sizes': 'CR-80, CR-79 adhesive back',
       Options: 'Dual-sided printing upgrade, magstripe and smartcard encoding, USB 2.0, Ethernet, cleaning kit, EZ or ECO ribbon cartridges',
     },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=-D_SpwS3HYs',
+      title: 'HID Fargo DTC1250e In Action',
+      description:
+        'See how the compact DTC1250e delivers fast, secure direct-to-card printing that keeps reception lines moving.',
+    },
     downloads: [{ label: 'DTC1250e Datasheet', href: '/downloads/hid-fargo/dtc1250e.pdf' }],
     related: [
       {
@@ -424,6 +430,12 @@ const hidModelPages = {
       'Card capacity': '100 input, up to 100 output',
       'Accepted sizes': 'CR-80, CR-79 adhesive back',
       Options: 'Dual-sided printing, lamination, smart card encoding, magstripe, USB 2.0, cleaning kit',
+    },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=hU3JzG8S1is',
+      title: 'Why Choose HID Fargo DTC1500',
+      description:
+        'Highlights of the DTC1500’s enterprise security features, overlay watermarking, and high-capacity consumables.',
     },
     downloads: [{ label: 'DTC1500 Datasheet', href: '/downloads/hid-fargo/dtc1500.pdf' }],
     related: [
@@ -509,6 +521,12 @@ const hidModelPages = {
       'Card capacity': '200 input (dual hopper), 100 output',
       'Accepted sizes': 'CR-80, CR-79 adhesive back',
       Options: 'USB 2.0, Ethernet, dual-side printing, lamination, smart card encoding, magstripe encoding, locking hoppers',
+    },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=6_MnTc4oZuE',
+      title: 'Why Choose HID Fargo DTC4500e?',
+      description:
+        'See how the DTC4500e streamlines secure credential issuance with high-capacity ribbons, SmartScreen guidance, and optional encoding modules ready for enterprise deployments.',
     },
     downloads: [{ label: 'DTC4500e Datasheet', href: '/downloads/hid-fargo/dtc4500e.pdf' }],
     related: [
@@ -740,6 +758,12 @@ const niscoModelPages = {
       OS: 'Windows 2000-8 (32/64-bit), macOS 10.5+',
       Warranty: '2 years',
     },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=0gCAgGnzfrg',
+      title: 'Nisca PR-C101 Overview',
+      description:
+        'Walkthrough of the PR-C101’s compact design, rotating LCD, and cartridge-based maintenance for small-batch issuance.',
+    },
     downloads: [],
     related: [
       {
@@ -922,6 +946,12 @@ const evolisModelPages = {
       Connectivity: 'USB, Ethernet',
       Encoding: 'Optional magstripe and smart card',
     },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=lHG7PmOXuo0',
+      title: 'Evolis Primacy Demo',
+      description:
+        'See Primacy’s speedy colour output, upgradeable dual-sided printing, and encoding options in this overview.',
+    },
     downloads: [],
     related: [
       {
@@ -1063,6 +1093,12 @@ const evolisModelPages = {
       Options: 'Advanced lamination modules',
       Connectivity: 'USB, Ethernet',
     },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=nOjkkboNRCk',
+      title: 'Evolis Avansia Product Tour',
+      description:
+        'Explore the Avansia’s over-the-edge 600 dpi retransfer engine and optional lamination modules for secure ID programs.',
+    },
     downloads: [],
     related: [
       {
@@ -1097,6 +1133,12 @@ const evolisModelPages = {
       'Card thickness': '10-50 mil',
       Connectivity: 'USB, Ethernet, optional Wi-Fi',
       Options: 'Advanced encoding and lamination modules',
+    },
+    videoSpotlight: {
+      videoUrl: 'https://www.youtube.com/watch?v=1iNy0VV8aMo',
+      title: 'Evolis Primacy 2 Highlights',
+      description:
+        'Feature overview covering Primacy 2’s rewrite support, Wi-Fi connectivity, and secure issuance upgrades.',
     },
     downloads: [{ label: 'Primacy 2 Datasheet', href: '/downloads/evolis/primacy-2.pdf' }],
     related: [

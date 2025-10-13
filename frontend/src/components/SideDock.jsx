@@ -251,7 +251,7 @@ export default function SideDock({
                 {current.panel.products.map((p) => {
                   const key = p.slug || p.code || p.title;
                   const cardClass =
-                    "group block rounded-xl border border-slate-200/70 px-3 py-3 text-center transition hover:border-sky-300 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400";
+                    "group block rounded-xl border border-slate-200/70 px-3 py-2 text-center transition hover:border-sky-300 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400";
                   const content = (
                     <>
                       <img

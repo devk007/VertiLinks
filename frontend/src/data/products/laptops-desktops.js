@@ -24,6 +24,12 @@ const brands = [
         features: ['M3/M3 Pro silicon', 'Liquid Retina XDR', 'Up to 22-hour battery'],
         specs: { Sizes: '13" / 14" / 16"', Weight: '1.2–2.1 kg', Security: 'Touch ID + Secure Enclave' },
         image: laptopImages.apple.models.macbooks,
+        videoSpotlight: {
+          videoUrl: 'https://www.youtube.com/watch?v=IHTT_7AjoU8',
+          title: 'MacBook Air & Pro with Apple Silicon',
+          description:
+            'Apple highlights the performance, battery life, and ecosystem continuity delivered by the latest MacBook Air and Pro lineup.',
+        },
         related: [
           { brand: 'apple', slug: 'imacs' },
           { brand: 'apple', slug: 'mac-mini' },
@@ -512,6 +518,7 @@ const buildModelPages = () => {
         overview: model.overview,
         features: model.features,
         specs: model.specs,
+        videoSpotlight: model.videoSpotlight,
         downloads: [],
         related: relatedEntries,
       };

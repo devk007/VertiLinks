@@ -5,6 +5,7 @@ import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import ContactForm2 from "../../components/ContactForm2";
+import VideoSpotlight from "../../components/VideoSpotlight";
 
 /**
  * Level-3: Model/Item detail page
@@ -130,6 +131,8 @@ export default function CatalogDetail({ data }) {
           </div>
         </section>
       ) : null}
+
+      {page.videoSpotlight ? <VideoSpotlight {...page.videoSpotlight} /> : null}
 
       {page.downloads?.length ? (
         <section className="mx-auto max-w-6xl px-6 pb-14 md:px-8">

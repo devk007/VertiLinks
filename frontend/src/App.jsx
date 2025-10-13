@@ -1,10 +1,6 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar'
-import { Route,Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Footer from './components/Footer'
 import CatalogIndex from "./pages/Catalog/CatalogIndex";
 import CatalogLevelTwo from "./pages/Catalog/CatalogLevelTwo";
 import CatalogList from "./pages/Catalog/CatalogList";
@@ -15,13 +11,11 @@ import SOFTWARES from "./data/software";
 import SoftwareIndex from "./pages/software/SoftwareIndex";
 import SoftwareDetail from "./pages/software/SoftwareDetail";
 import WhatsAppFloat from "./components/WhatsAppFloat";
-import ContactForm from './components/ContactForm'
 import ContactPage from './pages/ContactPage'
+import OurBrands from "./pages/OurBrands";
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Routes>
@@ -37,6 +31,7 @@ function App() {
         <Route path="/solutions/:category/:level2" element={<CatalogList data={SOLUTIONS} kind="solution" />} />
         <Route path="/solutions/:category/:level2/:slug" element={<CatalogDetail data={SOLUTIONS} kind="product" />} />
         <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/brands" element={<OurBrands />} />
       </Routes>
       <WhatsAppFloat />
     </>

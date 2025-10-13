@@ -141,6 +141,7 @@ const navData = {
         title: "Our Brands",
         intro:
           "We partner with leading global OEMs to deliver robust, scalable, and secure solutions.",
+        cta: { label: "Explore brands", to: "/brands" },
         links: [
           { label: "ASUS", to: "/brands/asus", icon: ChevronRight },
           { label: "DELL", to: "/brands/dell", icon: ChevronRight },
