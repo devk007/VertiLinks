@@ -215,9 +215,7 @@ export default function Navbar({
     <>
       <header
         ref={headerRef}
-        className={`fixed top-0 w-full z-50 transition-colors duration-300 ${
-          scrolled ? "bg-[#f3f3f1] text-gray-900" : "bg-transparent text-white"
-        }`}
+        className="fixed top-0 w-full z-50 transition-colors duration-300 bg-[#f3f3f1] text-gray-900"
       >
 
         <div
