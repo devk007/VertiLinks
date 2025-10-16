@@ -22,9 +22,8 @@ export default function Hero({
         <div className="absolute inset-0">
           <img
             src={bg}
-            alt=""
+            alt={type === "home" ? "VertiLinks IT Solutions and Security Systems" : title || "Hero background"}
             className="h-full w-full object-cover"
-            aria-hidden
           />
         </div>
       )}

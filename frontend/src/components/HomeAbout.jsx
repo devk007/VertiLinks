@@ -11,11 +11,11 @@ function HomeAbout() {
       {/* Left: text content */}
       <div className="relative z-10 w-full md:w-1/2 flex items-center justify-center p-6 md:p-12">
         <div className="max-w-lg text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Our
             <br />
             <span className="text-blue-400">Innovation That Counts</span>
-          </h1>
+          </h2>
           <p className="mt-6 text-lg sm:text-xl leading-relaxed">
             Founded in 2006, Vertilinks is an undisputed leader in Biometrics &amp; RFID
             industry in India. Fingerprint Scanners and IRIS Sensors are the primary
