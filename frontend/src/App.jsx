@@ -13,6 +13,7 @@ import SoftwareDetail from "./pages/software/SoftwareDetail";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import ContactPage from './pages/ContactPage'
 import OurBrands from "./pages/OurBrands";
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/solutions/:category/:level2/:slug" element={<CatalogDetail data={SOLUTIONS} kind="product" />} />
         <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/brands" element={<OurBrands />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <WhatsAppFloat />
     </>
